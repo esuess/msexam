@@ -120,6 +120,18 @@ MS Exam, Biostatistics, Spring 2013
 4. [Weibull.R](pastmsexam/2013/Spring2013/Weibull.R)
 5. [ob_prob5_solid tumor.txt](pastmsexam/2013/Spring2013/ob_prob5_solid%20tumor.txt)
 
+-----
+MS Exam, Statistics, Fall 2012
+1. [question1.csv](pastmsexam/2012/Fall2012/question1.csv)  [question1.mtw](pastmsexam/2012/Fall2012/question1.mtw)  [question1.sas](pastmsexam/2012/Fall2012/question1.sas)
+2. [sales.txt](pastmsexam/2012/Fall2012/sales.txt)
+3. no data
+4. [problem4.R](pastmsexam/2012/Fall2012/problem4.R)
+-----
+MS Exam, Biostatistics, Fall 2012
+1. [question1.csv](pastmsexam/2012/Fall2012/question1.csv)  [question1.mtw](pastmsexam/2012/Fall2012/question1.mtw)  [question1.sas](pastmsexam/2012/Fall2012/question1.sas)
+2. [sales.txt](pastmsexam/2012/Fall2012/sales.txt)
+3. no data
+4. [problem4.R](pastmsexam/2012/Fall2012/problem4.R)
 
 -----
 MS Exam, Spring 1998
