@@ -1,0 +1,36 @@
+##SKK 5/10/02 S2000 #2
+##Dataset: fiblab.mtw
+
+##b) ANOVA Table.  What's significant?
+
+MTB > Name c4 = 'resids'
+MTB > ANOVA 'strength' = lab lot lot*lab;
+SUBC>   Restrict;
+SUBC>   EMS;
+SUBC>   Residuals 'resids';
+SUBC>  GHistogram.
+##c) 
+
+MTB > Oneway 'strength' 'lab';
+SUBC>   Fisher 5.
+
+## d) Check normality/heteroscedasticity assumptions.  
+
+MTB > %NormPlot 'resids'.
+
+MTB > %Vartest 'strength' 'lab' 'lot';
+SUBC>   Confidence 95.0.
+
+## e) model variation -day effect
+
+MTB > name c5 'day'
+MTB > set c5
+DATA> 10(1:3)2
+DATA> end
+
+MTB > Name c6 = 'RESI1'
+MTB > ANOVA 'strength' = lot | lab day(lab lot) ;
+SUBC>   Restrict;
+SUBC>   EMS;
+SUBC>   Residuals 'RESI1';
+SUBC>  GHistogram.

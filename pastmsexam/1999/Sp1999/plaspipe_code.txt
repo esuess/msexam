@@ -1,0 +1,51 @@
+##SKK 5/12/02 S99 #3
+##Dataset:plaspipe.mtw
+
+##a)Exploratory.  Does strength change w/temp? 
+
+MTB > Boxplot 'pressure'*'temp';
+SUBC>   Box;
+SUBC>   Symbol;
+SUBC>     Outlier;
+SUBC>   ScFrame;
+SUBC>   ScAnnotation.
+
+MTB > %Vartest 'pressure' 'temp';
+SUBC>   Confidence 95.0.
+
+MTB >  %Describe 'pressure';
+SUBC>   By 'temp';
+SUBC>  Confidence 95.0.
+MTB >  %Describe 'pressure';
+SUBC>  Confidence 95.0.
+
+MTB > TwoT 'pressure' 'temp'.
+
+##b)different batches?
+
+MTB > TSPlot 'pressure';
+SUBC>   Index;
+SUBC>   TDisplay 11;
+SUBC>   Symbol 'temp';
+SUBC>   Connect 'temp';
+SUBC>   ScFrame;
+SUBC>   ScAnnotation.
+
+##c) & d) batch effect
+
+MTB > name c3 'batch'
+MTB > set batch
+DATA> 2(1:3)5 
+DATA> end
+
+MTB > %Interact 'temp' 'batch';
+SUBC>   Response 'pressure';
+SUBC>   Full.
+
+MTB > name c4 = 'resid'
+MTB > anova 'pressure' = temp batch temp*batch;
+SUBC>   random 'batch';
+SUBC>   Restrict;
+SUBC>   residuals 'resid'.
+
+

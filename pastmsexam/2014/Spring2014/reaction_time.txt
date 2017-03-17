@@ -1,0 +1,172 @@
+sex    age education race reaction_time
+1	22	10	white	33.4
+0	25	16	white	39.2
+0	23	16	Asian	38.8
+0	24	17	African	34.8
+0	22	15	Other	35.1
+0	23	16	African	31.6
+1	29	22	Asian	40.1
+1	27	16	white	38.2
+1	22	11	white	31.1
+1	25	18	Asian	36.5
+1	23	16	Asian	28.7
+0	24	17	African	36.3
+0	22	15	Other	36.3
+0	23	16	African	38.1
+0	29	20	Other	43.5
+0	27	16	white	33.6
+1	23	16	African	42.4
+1	30	16	white	39.4
+1	33	10	Asian	38.2
+1	35	16	Asian	45.7
+1	34	18	African	52.4
+0	37	21	Other	52.3
+0	37	21	African	51.7
+0	39	16	white	51.8
+0	39	16	Asian	47.6
+0	30	12	Asian	36.6
+1	33	12	African	36.6
+1	35	12	Other	51.4
+1	34	16	white	47.4
+1	37	18	Asian	46.4
+1	37	21	Asian	50.8
+0	39	18	African	49.9
+0	39	18	Other	47.5
+0	31	12	African	38.0
+0	31	12	Other	35.9
+0	33	16	Other	40.3
+1	40	16	Asian	51.3
+1	41	16	white	49.0
+1	44	18	white	55.5
+1	45	16	Asian	65.2
+1	45	18	Asian	60.4
+0	46	21	African	64.7
+0	48	21	Other	61.2
+0	49	16	African	66.0
+0	49	16	Other	59.0
+0	44	12	white	51.7
+1	43	12	white	56.8
+1	40	12	Asian	45.7
+1	41	16	African	57.2
+1	44	18	Other	58.7
+1	45	21	Other	61.8
+0	45	18	Asian	62.2
+0	46	18	white	56.1
+0	48	12	white	56.7
+0	49	12	Asian	55.1
+0	49	16	Asian	67.2
+1	44	16	African	54.6
+1	43	16	Other	51.2
+1	43	18	African	46.2
+1	50	16	Other	53.5
+1	51	18	white	62.1
+0	54	21	white	68.6
+0	55	21	Asian	74.0
+0	57	16	African	68.8
+0	56	16	Other	68.0
+0	58	12	Other	64.7
+1	59	12	Asian	71.8
+1	55	12	white	61.6
+1	50	16	white	57.6
+1	56	18	Asian	71.1
+1	55	21	Asian	75.7
+0	56	18	white	66.7
+0	57	18	white	69.8
+0	60	12	Asian	68.1
+0	61	12	African	69.5
+0	62	13	Other	71.4
+1	66	10	Other	68.3
+1	61	12	Asian	62.9
+1	63	12	white	70.1
+1	64	16	white	79.8
+1	61	16	Asian	78.4
+0	18	11	Asian	24.8
+0	17	10	African	20.7
+0	16	9	Other	28.7
+1	17	10	African	26.5
+1	16	9	Other	27.2
+0	18	11	Asian	29.7
+0	23	16	African	33.4
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+

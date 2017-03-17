@@ -1,0 +1,54 @@
+##SKK 5/10/02 S2000 OB #1
+##Dataset: medicate.mtw
+
+MTB > name c4 'logeffect'
+MTB > let c4 = loge('effect')
+
+#a) Which of effect or logeffect would be a more appropriate indep. variable?
+
+MTB > Regress 'effect' 2 'source' 'dose';
+SUBC>  GHistogram;
+SUBC>  RType 2;
+SUBC>   Constant;
+SUBC>   Pure;
+SUBC>   Brief 2.
+
+MTB > Regress 'logeffect' 2 'source' 'dose';
+SUBC>  GHistogram;
+SUBC>  RType 2;
+SUBC>   Constant;
+SUBC>   Pure;
+SUBC>   Brief 2.
+
+#b) Would comparisons be easier bet. effect at diff doses if no interaction?
+
+MTB > %Interact 'source' 'dose';
+SUBC>   Response 'logeffect';
+SUBC>   Full.
+
+MTB > let c5=source*dose
+MTB > name c5 'sour*dos'
+
+MTB > Regress 'logeffect' 3 'source' 'dose' 'sour*dos';
+SUBC>  RType 2;
+SUBC>   Constant;
+SUBC>   Brief 2.
+
+#c) Which medication is better?  
+
+MTB > Name c6 = 'COEF1'
+MTB > Regress 'logeffect' 2 'source' 'dose';
+SUBC>   Coefficients 'COEF1';
+SUBC>   MSE 'MSE1';
+SUBC>   Constant;
+SUBC>   Brief 1.
+
+MTB > name k1 = 'tval'
+MTB > invcdf .975 'tval';
+SUBC> t 24.
+MTB > name k2 = 'lcl'
+MTB > name k3 = 'ucl'
+MTB > let ucl = .756 + tval*.1034
+MTB > let lcl = .756 - tval*.1034
+MTB > print lcl ucl
+

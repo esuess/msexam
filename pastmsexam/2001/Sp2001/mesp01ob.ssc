@@ -1,0 +1,66 @@
+# ozone data from rats
+
+rat.oz <- c(10.1, 6.1, 20.4, 7.3, 14.3, 15.5, -9.9, 6.8, 28.2, 17.9, -12.9, 14.0, 6.6, 12.1, 15.7, 
+	39.9, -15.9, 54.6, -14.7, 44.1, -9.0, -9.0)
+	
+rat.con <- c(41.0, 38.4, 24.9, 25.9, 21.9, 18.3, 13.1, 27.3, 28.5, -16.9, 17.4, 21.8, 15.4, 27.4,
+	19.2, 22.4, 17.7, 26.0, 29.4, 21.4, 22.7, 26.0, 26.6)
+	
+# histograms	
+
+hist(rat.oz,xlim=c(-20,60))
+hist(rat.con,xlim=c(-20,60))
+
+# means
+
+mean(rat.oz)
+mean(rat.con)
+
+mean(rat.oz) - mean(rat.con)
+
+# standard deviations
+
+sqrt(var(rat.oz))
+sqrt(var(rat.con))
+
+# check normality
+
+qqnorm(rat.oz)
+qqnorm(rat.con)
+
+# independent two sample test and confidence interval
+
+t.test(rat.oz,rat.con)
+
+# nonparmetric bootstrap confidence interval
+
+B <- 10000		# number of bootstrap samples
+
+rat.oz.n <- length(rat.oz)		# rat.oz sample size
+rat.con.n <- length(rat.con) 	# rat.com sample size
+
+mean.diff.boot <- numeric(B)	# vector for bootstrap differences in the means
+
+for(i in 1:B){
+	oz.samp <- sample(rat.oz,rep=T,size=rat.oz.n)		# bootstrap sample from rat.oz
+	con.samp <- sample(rat.con,rep=T,size=rat.con.n)	# bootstrap sample from rat.con
+	mean.diff.boot[i] <- mean(oz.samp)-mean(con.samp)	# calculation of the bootstrap differences in the means
+}
+
+mean(mean.diff.boot)			# bootstrap estimate of the difference in the means
+
+sqrt(var(mean.diff.boot))	# bootstrap standard error of the difference in the means
+
+hist(mean.diff.boot)			# bootstrap distribution of the difference in the means
+
+quantile(mean.diff.boot,c(0.025,0.975))		# calculation of the empirical bootstrap confidence interval
+
+
+
+
+
+
+
+
+
+

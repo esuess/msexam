@@ -1,0 +1,83 @@
+data growth;
+input OBS	SUPPLMNT	GROWTHRT	LACKFIT;
+supsq=supplmnt*supplmnt;
+cards;
+1	10	73	1
+2	10	78	1
+3	15	85	2
+4	20	90	3
+5	20	91	3
+6	25	87	4
+7	25	86	4
+8	25	91	4
+9	30	75	5
+10	35	65	6
+;
+proc glm;
+model growthrt=supplmnt;
+proc glm;
+class lackfit;
+model growthrt=supplmnt lackfit;
+random lackfit;
+proc glm;
+class lackfit;
+model growthrt=supplmnt supsq lackfit;
+random lackfit;
+proc glm;
+class lackfit;
+model growthrt=supsq lackfit;
+random lackfit;
+proc glm;
+model growthrt=supplmnt supsq;
+random lackfit;
+proc reg;
+model growthrt=supplmnt/press;
+id lackfit;
+output out=resids p=growhat r=resids lcl=lcl ucl=ucl rstudent=rstudent; 
+proc sort;
+by supplmnt;
+symbol1 v=star cv=blue;
+symbol2 v=dot cv=black;
+symbol3 i=join ci=blue;
+symbol4 i=join ci=red;
+proc gplot;
+plot growthrt*supplmnt=1 growhat*supplmnt=2 growhat*supplmnt=3
+     lcl*supplmnt=4 ucl*supplmnt=4/overlay;
+title  'GRAPH: Growth Rate versus Supplement dosage';
+title2 'Fits are black dots connected by blue lines.';
+title3 'Upper and lower confidence limits are shown in red.';
+footnote 'Observed growth rate appears as blue star.';
+data resids;
+set resids;
+zero=0;
+proc gplot;
+plot rstudent*growhat=1 zero*growhat=4/overlay;
+title 'GRAPH: Studentized deleted residuals';
+title2 'Studentized deleted residuals versus fitted values are shown as stars.';
+title3 'Reference line for residuals of zero is shown in red.';
+data growth;
+set growth; 
+supsq=supplmnt*supplmnt;
+zero=0;
+if lackfit=1 then lack1=1; else lack1=0;
+if lackfit=2 then lack2=1; else lack2=0;
+if lackfit=3 then lack3=1; else lack3=0;
+if lackfit=4 then lack4=1; else lack4=0;
+if lackfit=5 then lack5=1; else lack5=0;
+*Note that there is no lack6 because when 
+	all lack1-lack5 are 0 then lackfit must be 6;
+proc glm;
+class lackfit;
+model growthrt=supplmnt supsq lackfit;
+output out=resids1 p=growhat r=resids lcl=lcl ucl=ucl rstudent=rstudent; 
+proc reg;
+model growthrt=supplmnt supsq lack1-lack5;
+output out=resids2 p=growhat r=resids lcl=lcl ucl=ucl rstudent=rstudent; 
+proc sort;
+by supplmnt;
+proc gplot;
+plot rstudent*growhat=1 zero*growhat=4/overlay;
+title 'GRAPH: Studentized deleted residuals';
+title2 'Studentized deleted residuals versus fitted values are shown as stars.';
+title3 'Reference line for residuals of zero is shown in red.';
+run;

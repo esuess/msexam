@@ -1,0 +1,29 @@
+### Question 3
+
+x <- c(0,1,2)
+
+lambda <- 0.75
+
+a <- dpois(x,lambda)
+a
+
+P <- matrix(c(? , ? , ? , ? ,
+              ? , ? , ? , ? ,
+              ? , ? , ? , ? ,
+              ? , ? , ? , ?),byrow=T,nrow=4)
+P
+P2 <- P %*% P
+P2
+P4 <- P2 %*% P2
+P4
+P8 <- P4 %*% P4
+P8
+P16 <- P8 %*% P8
+P16
+
+probs <- P16[1,]
+
+premium <- c(200,250,400,600)
+
+ave.premium <- sum(premium*probs)
+ave.premium

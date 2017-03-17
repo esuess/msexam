@@ -1,0 +1,50 @@
+11 	8 	male 	married 	42 	other
+20.4 	17 	male 	unmarried 	3 	other
+9.1 	13 	male 	unmarried 	16 	black/hispanic
+13.75 	14 	male 	married 	21 	other
+24.98 	16 	male 	married 	18 	other
+7.7 	13 	female 	unmarried 	8 	other
+10 	10 	female 	married 	25 	other
+3.4 	8 	female 	unmarried 	49 	other
+7.38 	14 	female 	unmarried 	15 	black/hispanic
+22 	14 	male 	married 	15 	other
+6.67 	16 	female 	unmarried 	10 	other
+12 	14 	female 	married 	10 	other
+9.25 	12 	male 	unmarried 	19 	other
+5 	12 	male 	unmarried 	4 	black/hispanic
+4.13 	12 	female 	married 	4 	other
+3.65 	11 	male 	unmarried 	16 	other
+7 	12 	female 	married 	10 	other
+22.83 	18 	female 	unmarried 	37 	other
+5 	12 	female 	married 	14 	other
+22.5 	18 	male 	married 	14 	other
+4.5 	12 	female 	unmarried 	3 	other
+6 	12 	male 	married 	9 	other
+6.75 	10 	male 	married 	13 	other
+8.75 	12 	male 	unmarried 	9 	other
+3.35 	16 	female 	married 	14 	black/hispanic
+6 	13 	male 	unmarried 	31 	other
+7.3 	12 	male 	married 	37 	other
+4.25 	12 	female 	married 	20 	other
+6.25 	18 	male 	married 	14 	other
+5.75 	12 	female 	married 	14 	other
+3.35 	11 	male 	unmarried 	3 	black/hispanic
+7.45 	12 	female 	unmarried 	25 	other
+3.43 	12 	male 	unmarried 	2 	black/hispanic
+4.35 	8 	female 	married 	37 	black/hispanic
+5.85 	18 	male 	married 	12 	other
+8.5 	12 	female 	unmarried 	16 	other
+7.5 	12 	female 	married 	27 	black/hispanic
+3.35 	12 	female	married 	10 	black/hispanic
+4.22 	8 	female 	married 	39 	other
+5 	12 	female 	married 	39 	other
+9.6 	12 	female 	married 	14 	other
+12.57 	12 	male 	married 	12 	other
+12.5 	13 	female 	married 	16 	other
+8.89 	16 	female 	married 	22 	other
+6.25 	9 	male 	unmarried 	30 	other
+
+
+
+ 
+ 

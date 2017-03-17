@@ -1,0 +1,12 @@
+vti_encoding:SR|utf8-nl
+vti_author:SR|JSUESS\\Eric A. Suess
+vti_modifiedby:SR|JSUESS\\Eric A. Suess
+vti_timelastmodified:TR|24 Feb 2010 18:50:39 -0000
+vti_timecreated:TR|17 Nov 2009 04:50:35 -0000
+vti_timelastindexed:TW|24 Feb 2010 18:50:39 -0000
+vti_lineageid:SR|{0BA14ADD-BE66-4187-B0B8-592CAA99E79F}
+vti_extenderversion:SR|5.0.2.6790
+vti_backlinkinfo:VX|msexam/pastexams.htm
+vti_nexttolasttimemodified:TR|17 Nov 2009 04:50:35 -0000
+vti_cacheddtm:TX|24 Feb 2010 18:50:39 -0000
+vti_filesize:IR|463

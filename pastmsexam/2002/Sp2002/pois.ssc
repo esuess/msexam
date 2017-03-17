@@ -1,0 +1,75 @@
+### relative efficiency of estimators of the Poisson rate lambda
+
+# data
+
+x <- c(rep(0,14),rep(1,30),rep(2,36),rep(3,68),rep(4,43),
+       rep(5,43),rep(6,30),rep(7,14),rep(8,10),rep(9,6),
+       rep(10,4),rep(11,1),rep(12,1))
+
+brakes <- seq(0,15) - 0.5
+hist(x, br = brakes)       # What does the distribution of the data
+                           # look like?
+
+n <- length(x)
+
+# estimates of lambda
+
+y <- 0                     # count the number of zeros 
+for(i in 1:n){
+  if(x[i] == 0) y <- y + 1
+}
+
+lambda.tilde <- -log(y/n)  # first estimator
+lambda.tilde
+lambda.hat <- mean(x)      # m.l.e.
+lambda.hat
+
+# parametric bootstrap for lambda.tilde
+
+B <- 1000  # number of bootstrap samples
+
+lambda.tilde.star <- numeric(B)     # vector for storage
+for(j in 1:B){
+  x.boot <- rpois(n,lambda.tilde)   # bootstrap sample
+  y <- 0
+  for(i in 1:n){
+    if(x.boot[i] == 0) y <- y + 1
+  }
+  if(y == 0) lambda.tilde.star[j] <- NA      # compute the estimator
+    else lambda.tilde.star[j] <- -log(y/n)   # avoiding y = 0
+}
+
+# bootstrap analysis using lambda.tilde
+
+mean(lambda.tilde.star)
+sqrt(var(lambda.tilde.star))
+quantile(lambda.tilde.star,c(0.025,0.975))
+
+# parametric bootstrap for lambda.hat
+B <- 1000  # number of bootstrap samples
+
+lambda.hat.star <- numeric(B)         # vector for storage
+for(j in 1:B){
+  x.boot <- rpois(n,lambda.hat)       # bootstrap sample
+  lambda.hat.star[j] <- mean(x.boot)  # compute the m.l.e.
+}
+
+# bootstrap analysis using lambda.hat
+
+mean(lambda.hat.star)
+sqrt(var(lambda.hat.star))
+quantile(lambda.hat.star,c(0.025,0.975))
+
+# plots for comparison
+
+brakes <- seq(2,5,0.1)
+par(mfrow=c(2,2))
+hist(lambda.tilde.star, br = brakes)
+hist(lambda.hat.star, br = brakes)
+
+# estimated relative efficiency
+
+eff <- var(lambda.hat.star)/var(lambda.tilde.star)
+eff
+
+

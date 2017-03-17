@@ -1,0 +1,20 @@
+# test parameters
+eta <- 0.90
+theta <- 0.95
+
+# prior probability of disease in the population
+p.prior <- 0.01
+
+# Bayes' Rule
+p.post <- (p.prior*eta)/(p.prior*eta+(1-p.prior)*(1-theta))
+
+# answer
+p.post
+
+# plot p.post versus p.prior
+p.prior <- seq(0,1,0.001)
+p.post <- (p.prior*eta)/(p.prior*eta+(1-p.prior)*(1-theta))
+plot(p.prior,p.post)
+
+# Find the p.prior value for a posterior of 0.5
+p.prior[round(p.post,digits=2)==0.50]

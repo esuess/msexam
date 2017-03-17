@@ -1,0 +1,21 @@
+##SKK 5/11/02  F99 #1
+##Dataset: horses.mtw
+
+## Significant change?  Parametric or nonparametric?
+
+MTB > name c4 = 'diff'
+MTB > let diff=post-pre
+
+MTB > %NormPlot 'pre'.
+MTB > %NormPlot 'post'.
+MTB > %NormPlot 'diff'.
+
+MTB > Paired  'pre' 'post'.
+
+MTB > STest 0.0 'diff';
+SUBC>   Alternative 0.
+
+MTB > WTest 0.0 'diff';
+SUBC>   Alternative 0.
+
+

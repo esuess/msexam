@@ -1,0 +1,63 @@
+### Bootstrap the cities data.
+
+cities <- matrix(c(138, 143, 93, 104, 61,  69, 179, 260, 48,  75, 37,  63, 29,  50, 23,  48,
+ 30, 111,  2,  50, 38,  52, 46,  53, 71,  79, 25,  57, 298, 317, 74,  93, 50,  58, 76,  80,
+381, 464, 387, 459, 78, 106, 60,  57, 507, 634, 50, 64, 77, 89, 64,  77, 40,  60, 136, 139,
+243, 291, 256, 288, 94,  85, 36,  46, 45,  53, 67,  67, 120, 115, 172, 183, 66,  86, 46,  65,
+121, 113, 44,  58, 64,  63, 56, 142, 40,  64, 116, 130, 87, 105, 43,  61, 43,  50, 161, 232,
+ 36,  54), byrow = T, ncol=2)
+
+n <- 49
+
+u <- cities[,1]
+x <- cities[,2]
+
+# scatter plot of 
+
+plot(u,x)
+
+# mean difference
+
+d <- mean(u) - mean(x)
+
+# ratio of means
+
+t <- mean(u)/mean(x)
+
+# Bootstrap difference and ratio
+
+B <- 1000 # number of bootstrap samples
+
+cities.boot <- matrix(NA,ncol=2,nrow=n) # storage matrix for bootstrap sample pairs
+
+diff.boot <- numeric(B)  # vector for bootstrap differences in the means
+ratio.boot <- numeric(B) # vector for bootstrap ratio in the means
+
+for(i in 1:B){	
+	i.boot <- sample(seq(1:49), replace=T) # sample the index vector [1,2,...,49] with replacement
+	for(j in 1:n){
+		cities.boot[j,] <- cities[i.boot[j],] # create the matrix of sampled pairs
+	}
+	diff.boot[i] <- mean(cities.boot[,2]) - mean(cities.boot[,1]) # calculation of the bootstrap differences in the means
+	ratio.boot[i] <- mean(cities.boot[,2])/mean(cities.boot[,1]) # calculation of the bootstrap ratios in the means
+}
+
+# Bootstrap analysis of differences
+
+mean(diff.boot) # bootstrap estimate of the difference in the means
+
+sqrt(var(diff.boot)) # bootstrap standard error of the difference in the means
+
+hist(diff.boot) # bootstrap distribution of the difference in the means
+
+quantile(diff.boot, c(0.025,0.975)) # calculation of the empirical bootstrap confidence interval
+
+# Bootstrap analysis of ratios
+
+mean(ratio.boot) # bootstrap estimate of the ratio in the means
+
+sqrt(var(ratio.boot)) # bootstrap standard error of the ratio in the means
+
+hist(ratio.boot) # bootstrap distribution of the ratio in the means
+
+quantile(ratio.boot,c(0.025,0.975)) # calculation of the empirical bootstrap confidence interval

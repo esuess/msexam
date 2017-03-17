@@ -1,0 +1,66 @@
+### Parametric Bootstrap Confidence Interval for
+### mu_ex - mu_con
+
+# Experimental method
+
+ex <- c(395,389,421,394,407,411,389,402,422,416,402,408,400,386,411,405,389)
+
+n.ex <- length(ex)
+n.ex
+
+# Conventional method 
+
+con <- c(362,352,380,382,413,384,400,378,419,379,384,388,372,383) 
+
+n.con <- length(con)
+n.con
+
+
+# m.l.e.'s
+
+mu.hat.ex <- mean(ex)
+mu.hat.ex
+
+sigma2.hat.ex <- ((n.ex-1)/n.ex)*var(ex)
+
+sigma.hat.ex <- sqrt(sigma2.hat.ex)
+sigma.hat.ex
+
+mu.hat.con <- mean(con)
+mu.hat.con
+
+sigma2.hat.con <- ((n.con-1)/n.con)*var(con)
+
+sigma.hat.con <- sqrt(sigma2.hat.con)
+sigma.hat.con
+
+# number of Bootstrap samples
+
+B <- 1000
+
+# Bootstrap samples
+
+diff.star <- numeric(B)
+
+for(i in 1:B){
+	diff.star[i] <- mean(rnorm(n.ex,mu.hat.ex,sigma.hat.ex)) - mean(rnorm(n.con,mu.hat.con,sigma.hat.con))
+}
+
+# Bootstrap estimte of mu_ex - mu_con
+
+diff.star.mean <- mean(diff.star)
+diff.star.mean
+
+# Histogram of the Bootstrap sample of differences
+
+hist(diff.star)
+
+# Bootstarp confidence interval for mu_ex - mu_con
+
+diff.LCL <- quantile(diff.star, 0.025) 
+diff.LCL 
+diff.UCL <- quantile(diff.star, 0.975) 
+diff.UCL 
+
+ 
+
