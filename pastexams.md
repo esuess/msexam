@@ -206,70 +206,171 @@ MS Exam, Biostatistics, Spring 2010
 
 -----
 MS Exam, Fall 2009
+- [CONTAM.TXT](pastmsexam/2009/Fall2009/CONTAM.TXT)
+- [Reading Data.csv](pastmsexam/2009/Fall2009/Reading%20Data.csv)
+- [Reading Data.txt](pastmsexam/2009/Fall2009/Reading%20Data.txt)
+- [pollination.txt](pastmsexam/2009/Fall2009/pollination.txt)
+- [program4.R](pastmsexam/2009/Fall2009/program4.R)
+- [Health.txt](pastmsexam/2009/Fall2009/Health.txt)
 
 -----
 MS Exam, Spring 2009
+- [BATTERY.txt](pastmsexam/2009/Spring2009/BATTERY.txt)
+- [DataSet.csv](pastmsexam/2009/Spring2009/DataSet.csv)
+- [DataSet.txt](pastmsexam/2009/Spring2009/DataSet.txt)
+- [compareMSE.R](pastmsexam/2009/Spring2009/compareMSE.R)
+- [MMA.txt](pastmsexam/2009/Spring2009/MMA.txt)
 
 -----
 MS Exam, Fall 2008
+- [TwentyNumbers.txt](pastmsexam/2008/Fall2008/TwentyNumbers.txt)
+- [ob_prob3_nhldata.txt](pastmsexam/2008/Fall2008/ob_prob3_nhldata.txt)
+- [ob_prob3_nhldata.xls](pastmsexam/2008/Fall2008/ob_prob3_nhldata.xls)
 
 -----
 MS Exam, Spring 2008
+- [drugpotent.txt](pastmsexam/2008/Spring2008/drugpotent.txt)
+- [data3.xls](pastmsexam/2008/Spring2008/data3.xls)
+- [data3.csv](pastmsexam/2008/Spring2008/data3.csv)
+- [ggboot.r](pastmsexam/2008/Spring2008/ggboot.r)
 
 -----
 MS Exam, Fall 2007
+- [comp2.xls](pastmsexam/2007/Fall2007/comp2.xls)
+- [comp2.csv](pastmsexam/2007/Fall2007/comp2.csv)
+- [CHD.xls](pastmsexam/2007/Fall2007/CHD.xls)
 
 -----
 MS Exam, Spring 2007
+- [geom.R](pastmsexam/2007/Spring2007/geom.R)
+- [ob_prob2.txt](pastmsexam/2007/Spring2007/ob_prob2.txt)
+- [hwtest.xls](pastmsexam/2007/Spring2007/hwtest.xls)
+- [hwtest.csv](pastmsexam/2007/Spring2007/hwtest.csv)
+- [hwtest.prn](pastmsexam/2007/Spring2007/hwtest.prn)
 
 -----
 MS Exam, Fall 2006
+- [prod.dat](pastmsexam/2006/Fall2006/prod.dat)
+- [WINGDRUGOPT.TXT](pastmsexam/2006/Fall2006/WINGDRUGOPT.TXT)
+- [WINGDRUGOPT.MTW](pastmsexam/2006/Fall2006/WINGDRUGOPT.MTW)
+- [WINGDRUGOPT.doc](pastmsexam/2006/Fall2006/WINGDRUGOPT.doc)
+- [regression.txt](pastmsexam/2006/Fall2006/regression.txt)
+- [regression.csv](pastmsexam/2006/Fall2006/regression.csv)
+- [cancer.txt](pastmsexam/2006/Fall2006/cancer.txt)
 
 -----
 MS Exam, Spring 2006
+- [ARRESTS.MTP](pastmsexam/2006/Spring2006/ARRESTS.MTP)
+- [ARRESTS.doc](pastmsexam/2006/Spring2006/ARRESTS.doc)
+- [regression data.txt](pastmsexam/2006/Spring2006/regression%20data.txt)
+- [regression data.csv](pastmsexam/2006/Spring2006/regression%20data.csv)
+- [regression data.prn](pastmsexam/2006/Spring2006/regression%20data.prn)
 
 -----
 MS Exam, Fall 2005
+- [05FaMicrobeData.MTP](pastmsexam/2005/Fall2005/05FaMicrobeData.MTP)
+- [MicrobeData.txt](pastmsexam/2005/Fall2005/MicrobeData.txt)
+- [merge file program.sas](pastmsexam/2005/Fall2005/merge%20file%20program.sas)
+- [mpghp5.xpt](pastmsexam/2005/Fall2005/mpghp5.xpt)
+- [mpgwt5.xpt](pastmsexam/2005/Fall2005/mpgwt5.xpt)
+- [challenger.dat](pastmsexam/2005/Fall2005/challenger.dat)
 
 -----
 MS Exam, Spring 2005
+- [GenBrandLab.MTP](pastmsexam/2005/Spring2005/GenBrandLab.MTP)
+- [GenBrandLab.txt](pastmsexam/2005/Spring2005/GenBrandLab.txt)
+- [norepine.dat](pastmsexam/2005/Spring2005/norepine.dat)
+- [setupmonths.sas](pastmsexam/2005/Spring2005/setupmonths.sas)
+- [part.txt](pastmsexam/2005/Spring2005/part.txt)
 
 -----
 MS Exam, Fall 2004
+- [cholesterol.dat](pastmsexam/2004/F2004/cholesterol.dat)
+- [admission.txt](pastmsexam/2004/F2004/admission.txt)
+- [holdoutdata.txt](pastmsexam/2004/F2004/holdoutdata.txt)
+- [MEf04ob.ssc](pastmsexam/2004/F2004/MEf04ob.ssc)
+- [Prot.mtw](pastmsexam/2004/F2004/Prot.mtw)    [Prot.txt](pastmsexam/2004/F2004/Prot.txt)    [Prot2.txt](pastmsexam/2004/F2004/Prot2.txt)
 
 -----
 MS Exam, Spring 2004
+- [rating.DAT](pastmsexam/2004/Sp2004/rating.DAT)
+- [rating.MTW](pastmsexam/2004/Sp2004/rating.MTW)
+- [rating.xls](pastmsexam/2004/Sp2004/rating.xls)
+- [Drug.txt](pastmsexam/2004/Sp2004/DRUG.txt)
+- [Drug.mtp](pastmsexam/2004/Sp2004/Drug.mtp)
+- [budget example CSUH.xls](pastmsexam/2004/Sp2004/budget%20example%20CSUH.xls)
+- [bayes.ssc](pastmsexam/2004/Sp2004/bayes.ssc)
 
 -----
 MS Exam, Fall 2003
+- no exam
 
 -----
 MS Exam, Spring 2003
+- [improvement.DAT](pastmsexam/2003/Sp2003/improvement.DAT)
+- [improvement.MTW](pastmsexam/2003/Sp2003/improvement.MTW)
+- [improvement.XLS](pastmsexam/2003/Sp2003/improvement.XLS)
+- [Enzyme.txt](pastmsexam/2003/Sp2003/Enzyme.txt)
+- [Enzyme2.MTW](pastmsexam/2003/Sp2003/Enzyme2.MTW)
+- [Enzyme2.TXT](pastmsexam/2003/Sp2003/Enzyme2.TXT)
+- [grades.txt](pastmsexam/2003/Sp2003/grades.txt)
 
 -----
 MS Exam, Fall 2002
+- no exam
 
 -----
 MS Exam, Spring 2002
+- [inventory.DAT](pastmsexam/2002/Sp2002/inventory.DAT)
+- [inventory.XLS](pastmsexam/2002/Sp2002/inventory.XLS)
+- [inventory.MTW](pastmsexam/2002/Sp2002/inventory.MTW)
+- [component.DAT](pastmsexam/2002/Sp2002/component.DAT)
+- [component.XLS](pastmsexam/2002/Sp2002/component.XLS)
+- [component.MTW](pastmsexam/2002/Sp2002/component.MTW)
+- [fabricatedfilerradialkeratotomy.txt](pastmsexam/2002/Sp2002/fabricatedfilerradialkeratotomy.txt)
+- [pois.ssc](pastmsexam/2002/Sp2002/pois.ssc)
 
 -----
 MS Exam, Fall 2001
+- [cities.txt](pastmsexam/2001/F2001/cities.txt)
+- [cities.ssc](pastmsexam/2001/F2001/cities.ssc)
+- [growthrate.dat](pastmsexam/2001/F2001/growth_rate.dat)
 
 -----
 MS Exam, Spring 2001
+- [lifetest.mtw](pastmsexam/2001/Sp2001/lifetest.mtw)
+- [lifetest.txt](pastmsexam/2001/Sp2001/lifetest.txt)
+- [mesp01.ssc](pastmsexam/2001/Sp2001/mesp01ob.ssc)
+- [pigs.txt](pastmsexam/2001/Sp2001/pigs.txt)
+- [wages.txt](pastmsexam/2001/Sp2001/wages.txt)
 
 -----
 MS Exam, Fall 2000
+- no exam
 
 -----
 MS Exam, Spring 2000
+- [rate.sas](pastmsexam/2000/Sp2000/rate.sas)
+- [fiblab_code.txt](pastmsexam/2000/Sp2000/fiblab_code.txt)
+- [fiblab.mtw](pastmsexam/2000/Sp2000/fiblab.MTW)
+- [fiblab.txt](pastmsexam/2000/Sp2000/Fiblab.txt)
+- [medicate_code.txt](pastmsexam/2000/Sp2000/medicate_code.txt)
+- [medicate.mtw](pastmsexam/2000/Sp2000/medicate.MTW)
+- [medicate.txt](pastmsexam/2000/Sp2000/medicate.txt)
+- [medicate.dat](pastmsexam/2000/Sp2000/medicate.DAT)
+- [depth.sas](pastmsexam/2000/Sp2000/depth.sas)
 
 -----
 MS Exam, Fall 1999
+- [Script1.ssc](pastmsexam/1999/F1999/Script1.ssc)
 
 -----
 MS Exam, Spring 1999
-
+- [horse_code.txt](pastmsexam/1999/Sp1999/horse_code.txt)
+- [horse.mtw](pastmsexam/1999/Sp1999/horses.MTW)
+- [plaspipe_code.txt](pastmsexam/1999/Sp1999/plaspipe_code.txt)
+- [plaspipe.mtw](pastmsexam/1999/Sp1999/plaspipe.MTW)
+- [rayon.txt](pastmsexam/1999/Sp1999/rayon.txt)
 
 -----
 MS Exam, Spring 1998
