@@ -134,6 +134,20 @@ MS Exam, Biostatistics, Fall 2012
 4. [problem4.R](pastmsexam/2012/Fall2012/problem4.R)
 
 -----
+MS Exam, Statistics, Spring 2012
+1. [batteries.txt](pastmsexam/2012/Spring2012/batteries.txt)
+2. [housing.txt](pastmsexam/2012/Spring2012/housing.txt)     [housing.csv](pastmsexam/2012/Spring2012/housing.csv)
+3. no data
+4. [component.R](pastmsexam/2012/Spring2012/component.R)
+-----
+MS Exam, Biostatistics, Spring 2012
+1. [batteries.txt](pastmsexam/2012/Spring2012/batteries.txt)
+2. [housing.txt](pastmsexam/2012/Spring2012/housing.txt)     [housing.csv](pastmsexam/2012/Spring2012/housing.csv)
+3. no data
+4. [problem4.R](pastmsexam/2012/Fall2012/problem4.R)
+5. [BMTH.txt](pastmsexam/2012/Spring2012/BMTH.txt)
+
+-----
 MS Exam, Spring 1998
 - [sumrinst.mtw](pastmsexam/1998/Sp1998/SUMRINST.MTW)
 - [sumrinst.dat](pastmsexam/1998/Sp1998/SUMRINST.DAT)
