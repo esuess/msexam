@@ -75,6 +75,22 @@ MS Exam, Biostatistics, Fall 2014
 4. no data
 5. [SevAn.txt](pastmsexam/2014/Fall2014/SevAn.txt)
 
+-----
+MS Exam, Statistics, Spring 2014
+1. [foodeffect.txt](pastmsexam/2014/Spring2014/foodeffect.txt)
+2. [reaction_time.txt](pastmsexam/2014/Spring2014/reaction_time.txt)
+3. [eld.txt](pastmsexam/2014/Spring2014/eld.txt)
+4. [gamma.txt](pastmsexam/2014/Spring2014/gamma.txt)  [mle2dgamma.R](pastmsexam/2014/Spring2014/mle2dgamma.R)
+5. [problem5.txt](pastmsexam/2014/Spring2014/problem5.txt)
+-----
+MS Exam, Biostatistics, Spring 2014
+1. [foodeffect.txt](pastmsexam/2014/Spring2014/foodeffect.txt)
+2. [reaction_time.txt](pastmsexam/2014/Spring2014/reaction_time.txt)
+3. [eld.txt](pastmsexam/2014/Spring2014/eld.txt)
+4. [gamma.txt](pastmsexam/2014/Spring2014/gamma.txt)  [mle2dgamma.R](pastmsexam/2014/Spring2014/mle2dgamma.R)
+5. [phd.txt](pastmsexam/2014/Spring2014/phd.txt)
+
+
 
 
 
