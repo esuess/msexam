@@ -147,6 +147,21 @@ MS Exam, Biostatistics, Spring 2012
 4. [problem4.R](pastmsexam/2012/Fall2012/problem4.R)
 5. [BMTH.txt](pastmsexam/2012/Spring2012/BMTH.txt)
 
+-----
+MS Exam, Statistics, Fall 2011
+1. [release.txt](pastmsexam/2011/Fall2011/release.txt)
+2. [health.txt](pastmsexam/2011/Fall2011/health.txt)
+3. [Hodgkin.txt](pastmsexam/2011/Fall2011/Hodgkin.txt)
+4. [cans.R](pastmsexam/2011/Fall2011/cans.R)
+5. no data
+
+MS Exam, Biostatistics, Fall 2011
+1. [release.txt](pastmsexam/2011/Fall2011/release.txt)
+2. [health.txt](pastmsexam/2011/Fall2011/health.txt)
+3. [Hodgkin.txt](pastmsexam/2011/Fall2011/Hodgkin.txt)
+4. [cans.R](pastmsexam/2011/Fall2011/cans.R)
+5. [breast.csv](pastmsexam/2011/Fall2011/cans.R)
+
 
 
 -----
