@@ -90,12 +90,20 @@ MS Exam, Biostatistics, Spring 2014
 4. [gamma.txt](pastmsexam/2014/Spring2014/gamma.txt)  [mle2dgamma.R](pastmsexam/2014/Spring2014/mle2dgamma.R)
 5. [phd.txt](pastmsexam/2014/Spring2014/phd.txt)
 
-
-
-
-
-
-
+-----
+MS Exam, Statistics, Fall 2013
+1. [counts.txt](pastmsexam/2013/Fall2013/counts.txt)
+2. [Concrete.xls](pastmsexam/2013/Fall2013/Concrete.xls)
+3. [CHD.txt](pastmsexam/2013/Fall2013/CHD.txt)
+4. [logodds.R](pastmsexam/2013/Fall2013/logodds.R)
+5. [problem5.txt](pastmsexam/2013/Fall2013/problem5.txt)
+-----
+MS Exam, Biostatistics, Fall 2013
+1. [counts.txt](pastmsexam/2013/Fall2013/counts.txt)
+2. [Concrete.xls](pastmsexam/2013/Fall2013/Concrete.xls)
+3. [CHD.txt](pastmsexam/2013/Fall2013/CHD.txt)
+4. [logodds.R](pastmsexam/2013/Fall2013/logodds.R)
+5. [valung.csv](pastmsexam/2013/Fall2013/valung.csv)
 
 
 
