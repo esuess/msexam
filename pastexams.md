@@ -7,7 +7,6 @@ MS Exam, Statistics, Fall 2016
 3. [mammo.csv](pastmsexam/2016/Fall2016/mammography.csv)
 4. [cars.txt](pastmsexam/2016/Fall2016/cars.txt)
 5. [forest.csv](pastmsexam/2016/Fall2016/forest.csv)
-
 -----
 MS Exam, Biostatistics, Fall 2016
 1. [hypnotic_induction.csv](pastmsexam/2016/Fall2016/hypnotic_induction.csv)
@@ -23,7 +22,6 @@ MS Exam, Statistics, Spring 2016
 3. [health.txt](pastmsexam/2016/Spring2016/health.txt)
 4. no data
 5. [DES_all.txt](pastmsexam/2016/Spring2016/selenium.csv)
-
 -----
 MS Exam, Biostatistics, Spring 2016
 1. [cakemix.txt](pastmsexam/2016/Spring2016/cakemix.txt)
@@ -31,6 +29,46 @@ MS Exam, Biostatistics, Spring 2016
 3. [health.txt](pastmsexam/2016/Spring2016/health.txt)
 4. no data
 5. [selenium.csv](pastmsexam/2016/Spring2016/DES_all.txt)
+
+-----
+MS Exam, Statistics, Fall 2015
+1. [problem1.sas](pastmsexam/2015/Fall2015/problem1.sas)
+2. [Expenditure.csv](pastmsexam/2015/Fall2015/Expenditure.csv)
+3. [reading.txt](pastmsexam/2015/Fall2015/reading.txt)
+4. [pprob4.dat](pastmsexam/2015/Fall2015/prob4.dat)
+5. [iris.xlsx](pastmsexam/2015/Fall2015/iris.xlsx)  [iris.jpg](pastmsexam/2015/Fall2015/iris.jpg)
+-----
+MS Exam, Biostatistics, Fall 2015
+1. [problem1.sas](pastmsexam/2015/Fall2015/problem1.sas)
+2. [Expenditure.csv](pastmsexam/2015/Fall2015/Expenditure.csv)
+3. [reading.txt](pastmsexam/2015/Fall2015/reading.txt)
+4. [pprob4.dat](pastmsexam/2015/Fall2015/prob4.dat)
+5. [tongue_cancer.csv](pastmsexam/2015/Fall2015/tongue_cancer.csv)
+
+-----
+MS Exam, Statistics, Spring 2015
+1. [cakemix.txt](pastmsexam/2016/Spring2016/cakemix.txt)
+2. [problem2.csv](pastmsexam/2016/Spring2016/problem2.csv)
+3. [health.txt](pastmsexam/2016/Spring2016/health.txt)
+4. no data
+5. [DES_all.txt](pastmsexam/2016/Spring2016/selenium.csv)
+-----
+MS Exam, Biostatistics, Spring 2015
+1. [cakemix.txt](pastmsexam/2016/Spring2016/cakemix.txt)
+2. [problem2.csv](pastmsexam/2016/Spring2016/problem2.csv)
+3. [health.txt](pastmsexam/2016/Spring2016/health.txt)
+4. no data
+5. [selenium.csv](pastmsexam/2016/Spring2016/DES_all.txt)
+
+
+
+
+
+
+
+
+
+
 
 -----
 MS Exam, Spring 1998
