@@ -105,6 +105,20 @@ MS Exam, Biostatistics, Fall 2013
 4. [logodds.R](pastmsexam/2013/Fall2013/logodds.R)
 5. [valung.csv](pastmsexam/2013/Fall2013/valung.csv)
 
+-----
+MS Exam, Statistics, Spring 2013
+1. [ob_prob1_bulbs.txt](pastmsexam/2013/Spring2013/ob_prob1_bulbs.txt)   [ob_prob1_bulbs.xls](pastmsexam/2013/Spring2013/ob_prob1_bulbs.xls)
+2. [wealthy.csv](pastmsexam/2013/Spring2013/wealthy.csv)
+3. [problem3.MTW](pastmsexam/2013/Spring2013/problem3.MTW)
+4. [Weibull.R](pastmsexam/2013/Spring2013/Weibull.R)
+5. [ob_prob5_solid tumor.txt](pastmsexam/2013/Spring2013/ob_prob5_solid%20tumor.txt)
+-----
+MS Exam, Biostatistics, Spring 2013
+1. [ob_prob1_bulbs.txt](pastmsexam/2013/Spring2013/ob_prob1_bulbs.txt)   [ob_prob1_bulbs.xls](pastmsexam/2013/Spring2013/ob_prob1_bulbs.xls)
+2. [wealthy.csv](pastmsexam/2013/Spring2013/wealthy.csv)
+3. no data
+4. [Weibull.R](pastmsexam/2013/Spring2013/Weibull.R)
+5. [ob_prob5_solid tumor.txt](pastmsexam/2013/Spring2013/ob_prob5_solid%20tumor.txt)
 
 
 -----
