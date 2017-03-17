@@ -60,7 +60,20 @@ MS Exam, Biostatistics, Spring 2015
 4. [prob4.dat](pastmsexam/2015/Spring2015/prob4.dat)
 5. [valung_small.csv](pastmsexam/2015/Spring2015/valung_small.csv)
 
-
+-----
+MS Exam, Statistics, Fall 2014
+1. [music.txt](pastmsexam/2014/Fall2014/music.txt)
+2. [sales.txt](pastmsexam/2014/Fall2014/sales.txt)
+3. [Scout.txt](pastmsexam/2014/Fall2014/Scout.txt)
+4. no data
+5. [problem5.txt](pastmsexam/2014/Fall2014/problem5.txt)
+-----
+MS Exam, Biostatistics, Fall 2014
+1. [music.txt](pastmsexam/2014/Fall2014/music.txt)
+2. [sales.txt](pastmsexam/2014/Fall2014/sales.txt)
+3. [Scout.txt](pastmsexam/2014/Fall2014/Scout.txt)
+4. no data
+5. [SevAn.txt](pastmsexam/2014/Fall2014/SevAn.txt)
 
 
 
