@@ -2,19 +2,19 @@
 
 -----
 MS Exam, Statistics, Fall 2016
-1. [hypnotic_induction.csv](pastmsexam/2016/F2016/hypnotic_induction.csv)
-2. [problem2.sas](pastmsexam/2016/F2016/problem2.sas)
-3. [mammo.csv](pastmsexam/2016/F2016/mammography.csv)
-4. [cars.txt](pastmsexam/2016/F2016/cars.txt)
-5. [forest.csv](pastmsexam/2016/F2016/forest.csv)
+1. [hypnotic_induction.csv](pastmsexam/2016/Fall 2016/hypnotic_induction.csv)
+2. [problem2.sas](pastmsexam/2016/Fall 2016/problem2.sas)
+3. [mammo.csv](pastmsexam/2016/Fall 2016/mammography.csv)
+4. [cars.txt](pastmsexam/2016/Fall 2016/cars.txt)
+5. [forest.csv](pastmsexam/2016/Fall 2016/forest.csv)
 
 -----
 MS Exam, Biostatistics, Fall 2016
-1. [hypnotic_induction.csv](pastmsexam/2016/F2016/hypnotic_induction.csv)
-2. [problem2.sas](pastmsexam/2016/F2016/problem2.sas)
-3. [mammo.csv](pastmsexam/2016/F2016/mammography.csv)
-4. [cars.txt](pastmsexam/2016/F2016/cars.txt)
-5. [kidrecurr.txt](pastmsexam/2016/F2016/kidrecurr.txt)
+1. [hypnotic_induction.csv](pastmsexam/2016/Fall 2016/hypnotic_induction.csv)
+2. [problem2.sas](pastmsexam/2016/Fall 2016/problem2.sas)
+3. [mammo.csv](pastmsexam/2016/Fall 2016/mammography.csv)
+4. [cars.txt](pastmsexam/2016/Fall 2016/cars.txt)
+5. [kidrecurr.txt](pastmsexam/2016/Fall 2016/kidrecurr.txt)
 
 -----
 MS Exam, Spring 2016
