@@ -17,12 +17,20 @@ MS Exam, Biostatistics, Fall 2016
 5. [kidrecurr.txt](pastmsexam/2016/Fall2016/kidrecurr.txt)
 
 -----
-MS Exam, Spring 2016
-1. cakemix.txt
-2. problem2.csv
-3. health.txt
+MS Exam, Statistics, Spring 2016
+1. [cakemix.txt](pastmsexam/2016/Spring2016/cakemix.txt)
+2. [problem2.csv](pastmsexam/2016/Spring2016/problem2.csv)
+3. [health.txt](pastmsexam/2016/Spring2016/health.txt)
 4. no data
-5. selenium.csv
+5. [DES_all.txt](pastmsexam/2016/Spring2016/selenium.csv)
+
+-----
+MS Exam, Biostatistics, Spring 2016
+1. [cakemix.txt](pastmsexam/2016/Spring2016/cakemix.txt)
+2. [problem2.csv](pastmsexam/2016/Spring2016/problem2.csv)
+3. [health.txt](pastmsexam/2016/Spring2016/health.txt)
+4. no data
+5. [selenium.csv](pastmsexam/2016/Spring2016/DES_all.txt)
 
 -----
 MS Exam, Spring 1998
