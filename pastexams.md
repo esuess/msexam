@@ -160,9 +160,49 @@ MS Exam, Biostatistics, Fall 2011
 2. [health.txt](pastmsexam/2011/Fall2011/health.txt)
 3. [Hodgkin.txt](pastmsexam/2011/Fall2011/Hodgkin.txt)
 4. [cans.R](pastmsexam/2011/Fall2011/cans.R)
-5. [breast.csv](pastmsexam/2011/Fall2011/cans.R)
+5. [breast.csv](pastmsexam/2011/Fall2011/breast.csv)
 
+-----
+MS Exam, Statistics, Spring 2011
+1. [Compound.XLS](pastmsexam/2011/Spring2011/Compound.XLS)
+2. [RealEstate.txt](pastmsexam/2011/Spring2011/RealEstate.txt)
+3. [achscor.XLS](pastmsexam/2011/Spring2011/achscor.XLS)  [rtestach.r](pastmsexam/2011/Spring2011/rtestach.r)
+4. [landings.R](pastmsexam/2011/Spring2011/landings.R)
 
+MS Exam, Biostatistics, Spring 2011
+1. [Compound.XLS](pastmsexam/2011/Spring2011/Compound.XLS)
+2. [RealEstate.txt](pastmsexam/2011/Spring2011/RealEstate.txt)
+3. [achscor.XLS](pastmsexam/2011/Spring2011/achscor.XLS)  [rtestach.r](pastmsexam/2011/Spring2011/rtestach.r)
+4. [landings.R](pastmsexam/2011/Spring2011/landings.R)
+5. [b_cancer.txt](pastmsexam/2011/Spring2011/landings.R)
+
+-----
+MS Exam, Statistics, Fall 2010
+1. [DRUG.txt](pastmsexam/2010/Fall2010/DRUG.txt)
+2. [problem2.csv](pastmsexam/2010/Fall2010/problem2.csv)
+3. [guns.txt](pastmsexam/2010/Fall2010/guns.txt)
+4. [gamma-arrivals.txt](pastmsexam/2010/Fall2010/gamma-arrivals.txt) [arrivals.R](pastmsexam/2010/Fall2010/arrivals.R)
+
+MS Exam, Biostatistics, Fall 2010
+1. [DRUG.txt](pastmsexam/2010/Fall2010/DRUG.txt)
+2. [problem2.csv](pastmsexam/2010/Fall2010/problem2.csv)
+3. [guns.txt](pastmsexam/2010/Fall2010/guns.txt)
+4. [gamma-arrivals.txt](pastmsexam/2010/Fall2010/gamma-arrivals.txt) [arrivals.R](pastmsexam/2010/Fall2010/arrivals.R)
+5. [q5.txt](pastmsexam/2010/Fall2010/q5.txt)
+
+-----
+MS Exam, Statistics, Spring 2010
+1. [TEMPBAT.TXT](pastmsexam/2010/Spring2010/TEMPBAT.TXT)
+2. [shootout by team.xls](pastmsexam/2010/Spring2010/shootout%20by%20team.xls)  [shootout by team.txt](pastmsexam/2010/Spring2010/shootout%20by%20team.txt)
+3. [weights.txt](pastmsexam/2010/Spring2010/weights.txt)
+4. [umvue.R](pastmsexam/2010/Spring2010/umvue.R)
+
+MS Exam, Biostatistics, Spring 2010
+1. [TEMPBAT.TXT](pastmsexam/2010/Spring2010/TEMPBAT.TXT)
+2. [shootout by team.xls](pastmsexam/2010/Spring2010/shootout%20by%20team.xls)  [shootout by team.txt](pastmsexam/2010/Spring2010/shootout%20by%20team.txt)
+3. [weights.txt](pastmsexam/2010/Spring2010/weights.txt)
+4. [umvue.R](pastmsexam/2010/Spring2010/umvue.R)
+5. [BMT.txt](pastmsexam/2010/Spring2010/BMT.txt)
 
 -----
 MS Exam, Spring 1998
