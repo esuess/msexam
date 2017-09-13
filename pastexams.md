@@ -1,6 +1,21 @@
 ### Computer files from past MS exams
 
 -----
+MS Exam, Statistics, Spring 2017
+1. [ob_prob1.xlsx](pastmsexam/2017/Spring2017/ob_prob1.xlsx)
+2. [problem2.sas](pastmsexam/2017/Spring2017/problem2.sas)
+3. [heart.csv](pastmsexam/2017/Spring2017/heart.csv)
+4. [sales.txt](pastmsexam/2017/Spring2017/sales.txt)
+5. [Barley.csv](pastmsexam/2017/Spring2017/Barley.csv)
+
+MS Exam, Biostatistics, Spring 2017
+1. [ob_prob1.xlsx](pastmsexam/2017/Spring2017/ob_prob1.xlsx)
+2. [problem2.sas](pastmsexam/2017/Spring2017/problem2.sas)
+3. [heart.csv](pastmsexam/2017/Spring2017/heart.csv)
+4. [sales.txt](pastmsexam/2017/Spring2017/sales.txt)
+5. [breast.csv](pastmsexam/2017/Spring2017/breast.csv)
+
+-----
 MS Exam, Statistics, Fall 2016
 1. [hypnotic_induction.csv](pastmsexam/2016/Fall2016/hypnotic_induction.csv)
 2. [problem2.sas](pastmsexam/2016/Fall2016/problem2.sas)
