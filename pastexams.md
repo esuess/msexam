@@ -1,6 +1,21 @@
 ### Computer files from past MS exams
 
 -----
+MS Exam, Statistics, Fall 2017
+1. [INJURY9.csv](pastmsexam/2017/Fall2017/INJURY9.csv)
+2. [river.csv](pastmsexam/2017/Fall2017/river.csv)
+3. [prostate.csv](pastmsexam/2017/Fall2017/prostate.csv)
+4. [prob4.txt](pastmsexam/2017/Fall2017/prob4.txt)
+5. [Jets.csv](pastmsexam/2017/Fall2017/Jets.csv)
+
+MS Exam, Biostatistics, Fall 2017
+1. [INJURY9.csv](pastmsexam/2017/Fall2017/INJURY9.csv)
+2. [river.csv](pastmsexam/2017/Fall2017/river.csv)
+3. [prostate.csv](pastmsexam/2017/Fall2017/prostate.csv)
+4. [prob4.txt](pastmsexam/2017/Fall2017/prob4.txt)
+5. [valung](pastmsexam/2017/Fall2017/valung.csv)
+
+-----
 MS Exam, Statistics, Spring 2017
 1. [ob_prob1.xlsx](pastmsexam/2017/Spring2017/ob_prob1.xlsx)
 2. [problem2.sas](pastmsexam/2017/Spring2017/problem2.sas)

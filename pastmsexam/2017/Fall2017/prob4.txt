@@ -1,0 +1,5 @@
+n = 30  # sample size
+theta = 3 # theta
+set.seed(1234) # setting the seed
+u = runif(n) 
+t = (1-u)^(-1/theta)-1  # simulated data
