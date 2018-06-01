@@ -183,16 +183,38 @@ dir.create(download_dir)</code></pre>
 <!-- rnb-output-begin eyJkYXRhIjoiJ0M6XFxtc2V4YW0nIGFscmVhZHkgZXhpc3RzXG4ifQ== -->
 <pre><code>'C:\msexam' already exists</code></pre>
 <!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3RhdF9kaXIgPC0gZmlsZS5wYXRoKGRvd25sb2FkX2RpciwgXCJzdGF0XCIpXG5kaXIuY3JlYXRlKHN0YXRfZGlyKVxuYmlvc3RhdF9kaXIgPC0gZmlsZS5wYXRoKGRvd25sb2FkX2RpciwgXCJiaW9zdGF0XCIpXG5kaXIuY3JlYXRlKGJpb3N0YXRfZGlyKVxuYGBgIn0= -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3RhdF9kaXIgPC0gZmlsZS5wYXRoKGRvd25sb2FkX2RpciwgXCJzdGF0XCIpXG5kaXIuY3JlYXRlKHN0YXRfZGlyKVxuYGBgIn0= -->
 <pre class="r"><code>stat_dir &lt;- file.path(download_dir, &quot;stat&quot;)
-dir.create(stat_dir)
-biostat_dir &lt;- file.path(download_dir, &quot;biostat&quot;)
+dir.create(stat_dir)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ0M6XFxtc2V4YW1cXFxcc3RhdCcgYWxyZWFkeSBleGlzdHNcbiJ9 -->
+<pre><code>'C:\msexam\\stat' already exists</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYmlvc3RhdF9kaXIgPC0gZmlsZS5wYXRoKGRvd25sb2FkX2RpciwgXCJiaW9zdGF0XCIpXG5kaXIuY3JlYXRlKGJpb3N0YXRfZGlyKVxuYGBgIn0= -->
+<pre class="r"><code>biostat_dir &lt;- file.path(download_dir, &quot;biostat&quot;)
 dir.create(biostat_dir)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ0M6XFxtc2V4YW1cXFxcYmlvc3RhdCcgYWxyZWFkeSBleGlzdHNcbiJ9 -->
+<pre><code>'C:\msexam\\biostat' already exists</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3RhdF9TcHJpbmdfMjAxOF9kaXIgPC0gZmlsZS5wYXRoKHN0YXRfZGlyLCBcIlNwcmluZ18yMDE4XCIpXG5kaXIuY3JlYXRlKHN0YXRfU3ByaW5nXzIwMThfZGlyKVxuYGBgIn0= -->
+<pre class="r"><code>stat_Spring_2018_dir &lt;- file.path(stat_dir, &quot;Spring_2018&quot;)
+dir.create(stat_Spring_2018_dir)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ0M6XFxtc2V4YW1cXFxcc3RhdFxcU3ByaW5nXzIwMTgnIGFscmVhZHkgZXhpc3RzXG4ifQ== -->
+<pre><code>'C:\msexam\\stat\Spring_2018' already exists</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYmlvc3RhdF9TcHJpbmdfMjAxOF9kaXIgPC0gZmlsZS5wYXRoKGJpb3N0YXRfZGlyLCBcIlNwcmluZ18yMDE4XCIpXG5kaXIuY3JlYXRlKGJpb3N0YXRfU3ByaW5nXzIwMThfZGlyKVxuYGBgIn0= -->
+<pre class="r"><code>biostat_Spring_2018_dir &lt;- file.path(biostat_dir, &quot;Spring_2018&quot;)
+dir.create(biostat_Spring_2018_dir)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ0M6XFxtc2V4YW1cXFxcYmlvc3RhdFxcU3ByaW5nXzIwMTgnIGFscmVhZHkgZXhpc3RzXG4ifQ== -->
+<pre><code>'C:\msexam\\biostat\Spring_2018' already exists</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3RhdF9GYWxsXzIwMTdfZGlyIDwtIGZpbGUucGF0aChzdGF0X2RpciwgXCJGYWxsXzIwMTdcIilcbmRpci5jcmVhdGUoc3RhdF9GYWxsXzIwMTdfZGlyKVxuYGBgIn0= -->
 <pre class="r"><code>stat_Fall_2017_dir &lt;- file.path(stat_dir, &quot;Fall_2017&quot;)
 dir.create(stat_Fall_2017_dir)</code></pre>
@@ -207,14 +229,37 @@ dir.create(biostat_Fall_2017_dir)</code></pre>
 <!-- rnb-output-begin eyJkYXRhIjoiJ0M6XFxtc2V4YW1cXFxcYmlvc3RhdFxcRmFsbF8yMDE3JyBhbHJlYWR5IGV4aXN0c1xuIn0= -->
 <pre><code>'C:\msexam\\biostat\Fall_2017' already exists</code></pre>
 <!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3RhdF9TcHJpbmdfMjAxN19kaXIgPC0gZmlsZS5wYXRoKHN0YXRfZGlyLCBcIlNwcmluZ18yMDE3XCIpXG5kaXIuY3JlYXRlKHN0YXRfU3ByaW5nXzIwMTdfZGlyKVxuYmlvc3RhdF9TcHJpbmdfMjAxN19kaXIgPC0gZmlsZS5wYXRoKGJpb3N0YXRfZGlyLCBcIlNwcmluZ18yMDE3XCIpXG5kaXIuY3JlYXRlKGJpb3N0YXRfU3ByaW5nXzIwMTdfZGlyKVxuYGBgIn0= -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3RhdF9TcHJpbmdfMjAxN19kaXIgPC0gZmlsZS5wYXRoKHN0YXRfZGlyLCBcIlNwcmluZ18yMDE3XCIpXG5kaXIuY3JlYXRlKHN0YXRfU3ByaW5nXzIwMTdfZGlyKVxuYGBgIn0= -->
 <pre class="r"><code>stat_Spring_2017_dir &lt;- file.path(stat_dir, &quot;Spring_2017&quot;)
-dir.create(stat_Spring_2017_dir)
-biostat_Spring_2017_dir &lt;- file.path(biostat_dir, &quot;Spring_2017&quot;)
+dir.create(stat_Spring_2017_dir)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ0M6XFxtc2V4YW1cXFxcc3RhdFxcU3ByaW5nXzIwMTcnIGFscmVhZHkgZXhpc3RzXG4ifQ== -->
+<pre><code>'C:\msexam\\stat\Spring_2017' already exists</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYmlvc3RhdF9TcHJpbmdfMjAxN19kaXIgPC0gZmlsZS5wYXRoKGJpb3N0YXRfZGlyLCBcIlNwcmluZ18yMDE3XCIpXG5kaXIuY3JlYXRlKGJpb3N0YXRfU3ByaW5nXzIwMTdfZGlyKVxuYGBgIn0= -->
+<pre class="r"><code>biostat_Spring_2017_dir &lt;- file.path(biostat_dir, &quot;Spring_2017&quot;)
 dir.create(biostat_Spring_2017_dir)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ0M6XFxtc2V4YW1cXFxcYmlvc3RhdFxcU3ByaW5nXzIwMTcnIGFscmVhZHkgZXhpc3RzXG4ifQ== -->
+<pre><code>'C:\msexam\\biostat\Spring_2017' already exists</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<div id="ms-exam-biostatistics-spring-2018" class="section level3">
+<h3>MS Exam, Biostatistics, Spring 2018</h3>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTgvU3ByaW5nMjAxOC9vYl9wcm9iMS5jc3ZcIiwgZmlsZS5wYXRoKHN0YXRfU3ByaW5nXzIwMThfZGlyLCBcIm9iX3Byb2IxLmNzdlwiKSlcbmBgYCJ9 -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/ob_prob1.csv&quot;, file.path(stat_Spring_2018_dir, &quot;ob_prob1.csv&quot;))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxOC9TcHJpbmcyMDE4L29iX3Byb2IxLmNzdidcbmNhbm5vdCBvcGVuIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxOC9TcHJpbmcyMDE4L29iX3Byb2IxLmNzdic6IEhUVFAgc3RhdHVzIHdhcyAnNDA0IE5vdCBGb3VuZCdFcnJvciBpbiBkb3dubG9hZC5maWxlKFwiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxOC9TcHJpbmcyMDE4L29iX3Byb2IxLmNzdlwiLCAgOiBcbiAgY2Fubm90IG9wZW4gVVJMICdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE4L1NwcmluZzIwMTgvb2JfcHJvYjEuY3N2J1xuIn0= -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/ob_prob1.csv'
+cannot open URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/ob_prob1.csv': HTTP status was '404 Not Found'Error in download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/ob_prob1.csv&quot;,  : 
+  cannot open URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/ob_prob1.csv'</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
 <div id="ms-exam-statistics-fall-2017" class="section level3">
 <h3>MS Exam, Statistics, Fall 2017</h3>
 <!-- rnb-text-end -->
@@ -259,6 +304,46 @@ downloaded 128 bytes</code></pre>
 Content type 'text/plain; charset=utf-8' length 199 bytes
 downloaded 199 bytes</code></pre>
 <!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvSU5KVVJZOS5jc3ZcIiwgZmlsZS5wYXRoKGJpb3N0YXRfRmFsbF8yMDE3X2RpciwgXCJJTkpVUlk5LmNzdlwiKSlcbmBgYCJ9 -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/INJURY9.csv&quot;, file.path(biostat_Fall_2017_dir, &quot;INJURY9.csv&quot;))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9GYWxsMjAxNy9JTkpVUlk5LmNzdidcbkNvbnRlbnQgdHlwZSAndGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCcgbGVuZ3RoIDI0NjAgYnl0ZXNcbmRvd25sb2FkZWQgMjQ2MCBieXRlc1xuIn0= -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/INJURY9.csv'
+Content type 'text/plain; charset=utf-8' length 2460 bytes
+downloaded 2460 bytes</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvcml2ZXIuY3N2XCIsIGZpbGUucGF0aChiaW9zdGF0X0ZhbGxfMjAxN19kaXIsIFwicml2ZXIuY3N2XCIpKVxuYGBgIn0= -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/river.csv&quot;, file.path(biostat_Fall_2017_dir, &quot;river.csv&quot;))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9GYWxsMjAxNy9yaXZlci5jc3YnXG5Db250ZW50IHR5cGUgJ3RleHQvcGxhaW47IGNoYXJzZXQ9dXRmLTgnIGxlbmd0aCAyMDUxIGJ5dGVzXG5kb3dubG9hZGVkIDIwNTEgYnl0ZXNcbiJ9 -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/river.csv'
+Content type 'text/plain; charset=utf-8' length 2051 bytes
+downloaded 2051 bytes</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvcHJvc3RhdGUuY3N2XCIsIGZpbGUucGF0aChiaW9zdGF0X0ZhbGxfMjAxN19kaXIsIFwicHJvc3RhdGUuY3N2XCIpKVxuYGBgIn0= -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/prostate.csv&quot;, file.path(biostat_Fall_2017_dir, &quot;prostate.csv&quot;))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9GYWxsMjAxNy9wcm9zdGF0ZS5jc3YnXG5Db250ZW50IHR5cGUgJ3RleHQvcGxhaW47IGNoYXJzZXQ9dXRmLTgnIGxlbmd0aCA3MTcgYnl0ZXNcbmRvd25sb2FkZWQgNzE3IGJ5dGVzXG4ifQ== -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/prostate.csv'
+Content type 'text/plain; charset=utf-8' length 717 bytes
+downloaded 717 bytes</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvcHJvYjQudHh0XCIsIGZpbGUucGF0aChiaW9zdGF0X0ZhbGxfMjAxN19kaXIsIFwicHJvYjQudHh0XCIpKVxuYGBgIn0= -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/prob4.txt&quot;, file.path(biostat_Fall_2017_dir, &quot;prob4.txt&quot;))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9GYWxsMjAxNy9wcm9iNC50eHQnXG5Db250ZW50IHR5cGUgJ3RleHQvcGxhaW47IGNoYXJzZXQ9dXRmLTgnIGxlbmd0aCAxMjggYnl0ZXNcbmRvd25sb2FkZWQgMTI4IGJ5dGVzXG4ifQ== -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/prob4.txt'
+Content type 'text/plain; charset=utf-8' length 128 bytes
+downloaded 128 bytes</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvdmFsdW5nLmNzdlwiLCBmaWxlLnBhdGgoYmlvc3RhdF9GYWxsXzIwMTdfZGlyLCBcInZhbHVuZy5jc3ZcIikpXG5gYGAifQ== -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/valung.csv&quot;, file.path(biostat_Fall_2017_dir, &quot;valung.csv&quot;))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9GYWxsMjAxNy92YWx1bmcuY3N2J1xuQ29udGVudCB0eXBlICd0ZXh0L3BsYWluOyBjaGFyc2V0PXV0Zi04JyBsZW5ndGggNDAwNSBieXRlc1xuZG93bmxvYWRlZCA0MDA1IGJ5dGVzXG4ifQ== -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/valung.csv'
+Content type 'text/plain; charset=utf-8' length 4005 bytes
+downloaded 4005 bytes</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -266,92 +351,92 @@ downloaded 199 bytes</code></pre>
 <h3>MS Exam, Biostatistics, Spring 2017</h3>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vZ2l0aHViLmNvbS9lc3Vlc3MvbXNleGFtL2Jsb2IvbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L29iX3Byb2IxLnhsc3hcIiwgZmlsZS5wYXRoKHN0YXRfU3ByaW5nXzIwMTdfZGlyLCBcIm9iX3Byb2IxLnhsc3hcIikpXG5gYGAifQ== -->
-<pre class="r"><code>download.file(&quot;https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/ob_prob1.xlsx&quot;, file.path(stat_Spring_2017_dir, &quot;ob_prob1.xlsx&quot;))</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9vYl9wcm9iMS5jc3ZcIiwgZmlsZS5wYXRoKHN0YXRfU3ByaW5nXzIwMTdfZGlyLCBcIm9iX3Byb2IxLmNzdlwiKSlcbmBgYCJ9 -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/ob_prob1.csv&quot;, file.path(stat_Spring_2017_dir, &quot;ob_prob1.csv&quot;))</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9naXRodWIuY29tL2VzdWVzcy9tc2V4YW0vYmxvYi9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvb2JfcHJvYjEueGxzeCdcbkNvbnRlbnQgdHlwZSAndGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04JyBsZW5ndGggdW5rbm93blxuZG93bmxvYWRlZCAzMSBLQlxuIn0= -->
-<pre><code>trying URL 'https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/ob_prob1.xlsx'
-Content type 'text/html; charset=utf-8' length unknown
-downloaded 31 KB</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L29iX3Byb2IxLmNzdidcbkNvbnRlbnQgdHlwZSAndGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCcgbGVuZ3RoIDQyNCBieXRlc1xuZG93bmxvYWRlZCA0MjQgYnl0ZXNcbiJ9 -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/ob_prob1.csv'
+Content type 'text/plain; charset=utf-8' length 424 bytes
+downloaded 424 bytes</code></pre>
 <!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vZ2l0aHViLmNvbS9lc3Vlc3MvbXNleGFtL2Jsb2IvbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L3Byb2JsZW0yLnNhc1wiLCBmaWxlLnBhdGgoc3RhdF9TcHJpbmdfMjAxN19kaXIsIFwicHJvYmxlbTIuc2FzXCIpKVxuYGBgIn0= -->
-<pre class="r"><code>download.file(&quot;https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/problem2.sas&quot;, file.path(stat_Spring_2017_dir, &quot;problem2.sas&quot;))</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9wcm9ibGVtMi5zYXNcIiwgZmlsZS5wYXRoKHN0YXRfU3ByaW5nXzIwMTdfZGlyLCBcInByb2JsZW0yLnNhc1wiKSlcbmBgYCJ9 -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/problem2.sas&quot;, file.path(stat_Spring_2017_dir, &quot;problem2.sas&quot;))</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9naXRodWIuY29tL2VzdWVzcy9tc2V4YW0vYmxvYi9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvcHJvYmxlbTIuc2FzJ1xuQ29udGVudCB0eXBlICd0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgnIGxlbmd0aCB1bmtub3duXG5kb3dubG9hZGVkIDI5OCBLQlxuIn0= -->
-<pre><code>trying URL 'https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/problem2.sas'
-Content type 'text/html; charset=utf-8' length unknown
-downloaded 298 KB</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L3Byb2JsZW0yLnNhcydcbkNvbnRlbnQgdHlwZSAndGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCcgbGVuZ3RoIDE5MTAyIGJ5dGVzICgxOCBLQilcbmRvd25sb2FkZWQgMTggS0JcbiJ9 -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/problem2.sas'
+Content type 'text/plain; charset=utf-8' length 19102 bytes (18 KB)
+downloaded 18 KB</code></pre>
 <!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vZ2l0aHViLmNvbS9lc3Vlc3MvbXNleGFtL2Jsb2IvbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L2hlYXJ0LmNzdlwiLCBmaWxlLnBhdGgoc3RhdF9TcHJpbmdfMjAxN19kaXIsIFwiaGVhcnQuY3N2XCIpKVxuYGBgIn0= -->
-<pre class="r"><code>download.file(&quot;https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/heart.csv&quot;, file.path(stat_Spring_2017_dir, &quot;heart.csv&quot;))</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9oZWFydC5jc3ZcIiwgZmlsZS5wYXRoKHN0YXRfU3ByaW5nXzIwMTdfZGlyLCBcImhlYXJ0LmNzdlwiKSlcbmBgYCJ9 -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/heart.csv&quot;, file.path(stat_Spring_2017_dir, &quot;heart.csv&quot;))</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9naXRodWIuY29tL2VzdWVzcy9tc2V4YW0vYmxvYi9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvaGVhcnQuY3N2J1xuQ29udGVudCB0eXBlICd0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgnIGxlbmd0aCB1bmtub3duXG5kb3dubG9hZGVkIDczIEtCXG4ifQ== -->
-<pre><code>trying URL 'https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/heart.csv'
-Content type 'text/html; charset=utf-8' length unknown
-downloaded 73 KB</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L2hlYXJ0LmNzdidcbkNvbnRlbnQgdHlwZSAndGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCcgbGVuZ3RoIDM4NjEgYnl0ZXNcbmRvd25sb2FkZWQgMzg2MSBieXRlc1xuIn0= -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/heart.csv'
+Content type 'text/plain; charset=utf-8' length 3861 bytes
+downloaded 3861 bytes</code></pre>
 <!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vZ2l0aHViLmNvbS9lc3Vlc3MvbXNleGFtL2Jsb2IvbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L3NhbGVzLnR4dFwiLCBmaWxlLnBhdGgoc3RhdF9TcHJpbmdfMjAxN19kaXIsIFwic2FsZXMudHh0XCIpKVxuYGBgIn0= -->
-<pre class="r"><code>download.file(&quot;https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/sales.txt&quot;, file.path(stat_Spring_2017_dir, &quot;sales.txt&quot;))</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9zYWxlcy50eHRcIiwgZmlsZS5wYXRoKHN0YXRfU3ByaW5nXzIwMTdfZGlyLCBcInNhbGVzLnR4dFwiKSlcbmBgYCJ9 -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/sales.txt&quot;, file.path(stat_Spring_2017_dir, &quot;sales.txt&quot;))</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9naXRodWIuY29tL2VzdWVzcy9tc2V4YW0vYmxvYi9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvc2FsZXMudHh0J1xuQ29udGVudCB0eXBlICd0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgnIGxlbmd0aCB1bmtub3duXG5kb3dubG9hZGVkIDQzIEtCXG4ifQ== -->
-<pre><code>trying URL 'https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/sales.txt'
-Content type 'text/html; charset=utf-8' length unknown
-downloaded 43 KB</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L3NhbGVzLnR4dCdcbkNvbnRlbnQgdHlwZSAndGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCcgbGVuZ3RoIDUxMyBieXRlc1xuZG93bmxvYWRlZCA1MTMgYnl0ZXNcbiJ9 -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/sales.txt'
+Content type 'text/plain; charset=utf-8' length 513 bytes
+downloaded 513 bytes</code></pre>
 <!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vZ2l0aHViLmNvbS9lc3Vlc3MvbXNleGFtL2Jsb2IvbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L0JhcmxleS5jc3ZcIiwgZmlsZS5wYXRoKHN0YXRfU3ByaW5nXzIwMTdfZGlyLCBcIkJhcmxleS5jc3ZcIikpXG5gYGAifQ== -->
-<pre class="r"><code>download.file(&quot;https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/Barley.csv&quot;, file.path(stat_Spring_2017_dir, &quot;Barley.csv&quot;))</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9CYXJsZXkuY3N2XCIsIGZpbGUucGF0aChzdGF0X1NwcmluZ18yMDE3X2RpciwgXCJCYXJsZXkuY3N2XCIpKVxuYGBgIn0= -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/Barley.csv&quot;, file.path(stat_Spring_2017_dir, &quot;Barley.csv&quot;))</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9naXRodWIuY29tL2VzdWVzcy9tc2V4YW0vYmxvYi9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvQmFybGV5LmNzdidcbkNvbnRlbnQgdHlwZSAndGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04JyBsZW5ndGggdW5rbm93blxuZG93bmxvYWRlZCAzNSBLQlxuIn0= -->
-<pre><code>trying URL 'https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/Barley.csv'
-Content type 'text/html; charset=utf-8' length unknown
-downloaded 35 KB</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L0JhcmxleS5jc3YnXG5Db250ZW50IHR5cGUgJ3RleHQvcGxhaW47IGNoYXJzZXQ9dXRmLTgnIGxlbmd0aCAyMjQgYnl0ZXNcbmRvd25sb2FkZWQgMjI0IGJ5dGVzXG4ifQ== -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/Barley.csv'
+Content type 'text/plain; charset=utf-8' length 224 bytes
+downloaded 224 bytes</code></pre>
 <!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vZ2l0aHViLmNvbS9lc3Vlc3MvbXNleGFtL2Jsb2IvbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L29iX3Byb2IxLnhsc3hcIiwgZmlsZS5wYXRoKGJpb3N0YXRfRmFsbF8yMDE3X2RpciwgXCJvYl9wcm9iMS54bHN4XCIpKVxuYGBgIn0= -->
-<pre class="r"><code>download.file(&quot;https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/ob_prob1.xlsx&quot;, file.path(biostat_Fall_2017_dir, &quot;ob_prob1.xlsx&quot;))</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9vYl9wcm9iMS5jc3ZcIiwgZmlsZS5wYXRoKGJpb3N0YXRfU3ByaW5nXzIwMTdfZGlyLCBcIm9iX3Byb2IxLmNzdlwiKSlcbmBgYCJ9 -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/ob_prob1.csv&quot;, file.path(biostat_Spring_2017_dir, &quot;ob_prob1.csv&quot;))</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9naXRodWIuY29tL2VzdWVzcy9tc2V4YW0vYmxvYi9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvb2JfcHJvYjEueGxzeCdcbkNvbnRlbnQgdHlwZSAndGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04JyBsZW5ndGggdW5rbm93blxuZG93bmxvYWRlZCAzMSBLQlxuIn0= -->
-<pre><code>trying URL 'https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/ob_prob1.xlsx'
-Content type 'text/html; charset=utf-8' length unknown
-downloaded 31 KB</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L29iX3Byb2IxLmNzdidcbkNvbnRlbnQgdHlwZSAndGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCcgbGVuZ3RoIDQyNCBieXRlc1xuZG93bmxvYWRlZCA0MjQgYnl0ZXNcbiJ9 -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/ob_prob1.csv'
+Content type 'text/plain; charset=utf-8' length 424 bytes
+downloaded 424 bytes</code></pre>
 <!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vZ2l0aHViLmNvbS9lc3Vlc3MvbXNleGFtL2Jsb2IvbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L3Byb2JsZW0yLnNhc1wiLCBmaWxlLnBhdGgoYmlvc3RhdF9GYWxsXzIwMTdfZGlyLCBcInByb2JsZW0yLnNhc1wiKSlcbmBgYCJ9 -->
-<pre class="r"><code>download.file(&quot;https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/problem2.sas&quot;, file.path(biostat_Fall_2017_dir, &quot;problem2.sas&quot;))</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9wcm9ibGVtMi5zYXNcIiwgZmlsZS5wYXRoKGJpb3N0YXRfU3ByaW5nXzIwMTdfZGlyLCBcInByb2JsZW0yLnNhc1wiKSlcbmBgYCJ9 -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/problem2.sas&quot;, file.path(biostat_Spring_2017_dir, &quot;problem2.sas&quot;))</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9naXRodWIuY29tL2VzdWVzcy9tc2V4YW0vYmxvYi9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvcHJvYmxlbTIuc2FzJ1xuQ29udGVudCB0eXBlICd0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgnIGxlbmd0aCB1bmtub3duXG5kb3dubG9hZGVkIDI5OCBLQlxuIn0= -->
-<pre><code>trying URL 'https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/problem2.sas'
-Content type 'text/html; charset=utf-8' length unknown
-downloaded 298 KB</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L3Byb2JsZW0yLnNhcydcbkNvbnRlbnQgdHlwZSAndGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCcgbGVuZ3RoIDE5MTAyIGJ5dGVzICgxOCBLQilcbmRvd25sb2FkZWQgMTggS0JcbiJ9 -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/problem2.sas'
+Content type 'text/plain; charset=utf-8' length 19102 bytes (18 KB)
+downloaded 18 KB</code></pre>
 <!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vZ2l0aHViLmNvbS9lc3Vlc3MvbXNleGFtL2Jsb2IvbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L2hlYXJ0LmNzdlwiLCBmaWxlLnBhdGgoYmlvc3RhdF9GYWxsXzIwMTdfZGlyLCBcImhlYXJ0LmNzdlwiKSlcbmBgYCJ9 -->
-<pre class="r"><code>download.file(&quot;https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/heart.csv&quot;, file.path(biostat_Fall_2017_dir, &quot;heart.csv&quot;))</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9oZWFydC5jc3ZcIiwgZmlsZS5wYXRoKGJpb3N0YXRfU3ByaW5nXzIwMTdfZGlyLCBcImhlYXJ0LmNzdlwiKSlcbmBgYCJ9 -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/heart.csv&quot;, file.path(biostat_Spring_2017_dir, &quot;heart.csv&quot;))</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9naXRodWIuY29tL2VzdWVzcy9tc2V4YW0vYmxvYi9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvaGVhcnQuY3N2J1xuQ29udGVudCB0eXBlICd0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgnIGxlbmd0aCB1bmtub3duXG5kb3dubG9hZGVkIDczIEtCXG4ifQ== -->
-<pre><code>trying URL 'https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/heart.csv'
-Content type 'text/html; charset=utf-8' length unknown
-downloaded 73 KB</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L2hlYXJ0LmNzdidcbkNvbnRlbnQgdHlwZSAndGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCcgbGVuZ3RoIDM4NjEgYnl0ZXNcbmRvd25sb2FkZWQgMzg2MSBieXRlc1xuIn0= -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/heart.csv'
+Content type 'text/plain; charset=utf-8' length 3861 bytes
+downloaded 3861 bytes</code></pre>
 <!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vZ2l0aHViLmNvbS9lc3Vlc3MvbXNleGFtL2Jsb2IvbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L3NhbGVzLnR4dFwiLCBmaWxlLnBhdGgoYmlvc3RhdF9GYWxsXzIwMTdfZGlyLCBcInNhbGVzLnR4dFwiKSlcbmBgYCJ9 -->
-<pre class="r"><code>download.file(&quot;https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/sales.txt&quot;, file.path(biostat_Fall_2017_dir, &quot;sales.txt&quot;))</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9zYWxlcy50eHRcIiwgZmlsZS5wYXRoKGJpb3N0YXRfU3ByaW5nXzIwMTdfZGlyLCBcInNhbGVzLnR4dFwiKSlcbmBgYCJ9 -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/sales.txt&quot;, file.path(biostat_Spring_2017_dir, &quot;sales.txt&quot;))</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9naXRodWIuY29tL2VzdWVzcy9tc2V4YW0vYmxvYi9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvc2FsZXMudHh0J1xuQ29udGVudCB0eXBlICd0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgnIGxlbmd0aCB1bmtub3duXG5kb3dubG9hZGVkIDQzIEtCXG4ifQ== -->
-<pre><code>trying URL 'https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/sales.txt'
-Content type 'text/html; charset=utf-8' length unknown
-downloaded 43 KB</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L3NhbGVzLnR4dCdcbkNvbnRlbnQgdHlwZSAndGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCcgbGVuZ3RoIDUxMyBieXRlc1xuZG93bmxvYWRlZCA1MTMgYnl0ZXNcbiJ9 -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/sales.txt'
+Content type 'text/plain; charset=utf-8' length 513 bytes
+downloaded 513 bytes</code></pre>
 <!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vZ2l0aHViLmNvbS9lc3Vlc3MvbXNleGFtL2Jsb2IvbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L2JyZWFzdC5jc3ZcIiwgZmlsZS5wYXRoKGJpb3N0YXRfRmFsbF8yMDE3X2RpciwgXCJicmVhc3QuY3N2XCIpKVxuYGBgIn0= -->
-<pre class="r"><code>download.file(&quot;https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/breast.csv&quot;, file.path(biostat_Fall_2017_dir, &quot;breast.csv&quot;))</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZG93bmxvYWQuZmlsZShcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9icmVhc3QuY3N2XCIsIGZpbGUucGF0aChiaW9zdGF0X1NwcmluZ18yMDE3X2RpciwgXCJicmVhc3QuY3N2XCIpKVxuYGBgIn0= -->
+<pre class="r"><code>download.file(&quot;https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/breast.csv&quot;, file.path(biostat_Spring_2017_dir, &quot;breast.csv&quot;))</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9naXRodWIuY29tL2VzdWVzcy9tc2V4YW0vYmxvYi9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvYnJlYXN0LmNzdidcbkNvbnRlbnQgdHlwZSAndGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04JyBsZW5ndGggdW5rbm93blxuZG93bmxvYWRlZCA0MSBLQlxuIn0= -->
-<pre><code>trying URL 'https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/breast.csv'
-Content type 'text/html; charset=utf-8' length unknown
-downloaded 41 KB</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoidHJ5aW5nIFVSTCAnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L2JyZWFzdC5jc3YnXG5Db250ZW50IHR5cGUgJ3RleHQvcGxhaW47IGNoYXJzZXQ9dXRmLTgnIGxlbmd0aCAzNDYgYnl0ZXNcbmRvd25sb2FkZWQgMzQ2IGJ5dGVzXG4ifQ== -->
+<pre><code>trying URL 'https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/breast.csv'
+Content type 'text/plain; charset=utf-8' length 346 bytes
+downloaded 346 bytes</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 </div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIkZpbGUgRG93bmxvYWQgZm9yIHBhc3QgTVMgZXhhbXMiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQoNCllvdSBjYW4gcnVuIHRoaXMgUiBub3RlYm9vayB0byBkb3dubG9hZCBhbGwgb2YgdGhlIHBhc3QgTVMgZXhhbSBmaWxlcy4NCg0KRmlyc3Qgc2V0IHRoZSBkaXJlY3Rvcnkgd2hlcmUgeW91IHdvdWxkIGxpa2UgdG8gZG93bmxvYWQgYWxsIG9mIHRoZSBmaWxlcy4NCg0KDQpgYGB7cn0NCmRvd25sb2FkX2RpciA8LSAiQzovbXNleGFtLyINCmRpci5jcmVhdGUoZG93bmxvYWRfZGlyKQ0KDQpzdGF0X2RpciA8LSBmaWxlLnBhdGgoZG93bmxvYWRfZGlyLCAic3RhdCIpDQpkaXIuY3JlYXRlKHN0YXRfZGlyKQ0KDQpiaW9zdGF0X2RpciA8LSBmaWxlLnBhdGgoZG93bmxvYWRfZGlyLCAiYmlvc3RhdCIpDQpkaXIuY3JlYXRlKGJpb3N0YXRfZGlyKQ0KDQpgYGANCg0KDQpgYGB7cn0NCnN0YXRfRmFsbF8yMDE3X2RpciA8LSBmaWxlLnBhdGgoc3RhdF9kaXIsICJGYWxsXzIwMTciKQ0KZGlyLmNyZWF0ZShzdGF0X0ZhbGxfMjAxN19kaXIpDQpiaW9zdGF0X0ZhbGxfMjAxN19kaXIgPC0gZmlsZS5wYXRoKGJpb3N0YXRfZGlyLCAiRmFsbF8yMDE3IikNCmRpci5jcmVhdGUoYmlvc3RhdF9GYWxsXzIwMTdfZGlyKQ0KDQpzdGF0X1NwcmluZ18yMDE3X2RpciA8LSBmaWxlLnBhdGgoc3RhdF9kaXIsICJTcHJpbmdfMjAxNyIpDQpkaXIuY3JlYXRlKHN0YXRfU3ByaW5nXzIwMTdfZGlyKQ0KYmlvc3RhdF9TcHJpbmdfMjAxN19kaXIgPC0gZmlsZS5wYXRoKGJpb3N0YXRfZGlyLCAiU3ByaW5nXzIwMTciKQ0KZGlyLmNyZWF0ZShiaW9zdGF0X1NwcmluZ18yMDE3X2RpcikNCg0KDQpgYGANCg0KDQoNCg0KDQoNCiMjIyBNUyBFeGFtLCBTdGF0aXN0aWNzLCBGYWxsIDIwMTcNCg0KYGBge3J9DQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L0ZhbGwyMDE3L0lOSlVSWTkuY3N2IiwgZmlsZS5wYXRoKHN0YXRfRmFsbF8yMDE3X2RpciwgIklOSlVSWTkuY3N2IikpDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvcml2ZXIuY3N2IiwgZmlsZS5wYXRoKHN0YXRfRmFsbF8yMDE3X2RpciwgInJpdmVyLmNzdiIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L0ZhbGwyMDE3L3Byb3N0YXRlLmNzdiIsIGZpbGUucGF0aChzdGF0X0ZhbGxfMjAxN19kaXIsICJwcm9zdGF0ZS5jc3YiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9GYWxsMjAxNy9wcm9iNC50eHQiLCBmaWxlLnBhdGgoc3RhdF9GYWxsXzIwMTdfZGlyLCAicHJvYjQudHh0IikpDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvSmV0cy5jc3YiLCBmaWxlLnBhdGgoc3RhdF9GYWxsXzIwMTdfZGlyLCAiSmV0cy5jc3YiKSkNCg0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L0ZhbGwyMDE3L0lOSlVSWTkuY3N2IiwgZmlsZS5wYXRoKGJpb3N0YXRfRmFsbF8yMDE3X2RpciwgIklOSlVSWTkuY3N2IikpDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvcml2ZXIuY3N2IiwgZmlsZS5wYXRoKGJpb3N0YXRfRmFsbF8yMDE3X2RpciwgInJpdmVyLmNzdiIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L0ZhbGwyMDE3L3Byb3N0YXRlLmNzdiIsIGZpbGUucGF0aChiaW9zdGF0X0ZhbGxfMjAxN19kaXIsICJwcm9zdGF0ZS5jc3YiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9GYWxsMjAxNy9wcm9iNC50eHQiLCBmaWxlLnBhdGgoYmlvc3RhdF9GYWxsXzIwMTdfZGlyLCAicHJvYjQudHh0IikpDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvdmFsdW5nLmNzdiIsIGZpbGUucGF0aChiaW9zdGF0X0ZhbGxfMjAxN19kaXIsICJ2YWx1bmcuY3N2IikpDQoNCmBgYA0KDQojIyMgTVMgRXhhbSwgQmlvc3RhdGlzdGljcywgU3ByaW5nIDIwMTcNCg0KYGBge3J9DQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvb2JfcHJvYjEueGxzeCIsIGZpbGUucGF0aChzdGF0X1NwcmluZ18yMDE3X2RpciwgIm9iX3Byb2IxLnhsc3giKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L3Byb2JsZW0yLnNhcyIsIGZpbGUucGF0aChzdGF0X1NwcmluZ18yMDE3X2RpciwgInByb2JsZW0yLnNhcyIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvaGVhcnQuY3N2IiwgZmlsZS5wYXRoKHN0YXRfU3ByaW5nXzIwMTdfZGlyLCAiaGVhcnQuY3N2IikpDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9zYWxlcy50eHQiLCBmaWxlLnBhdGgoc3RhdF9TcHJpbmdfMjAxN19kaXIsICJzYWxlcy50eHQiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L0JhcmxleS5jc3YiLCBmaWxlLnBhdGgoc3RhdF9TcHJpbmdfMjAxN19kaXIsICJCYXJsZXkuY3N2IikpDQoNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L29iX3Byb2IxLnhsc3giLCBmaWxlLnBhdGgoYmlvc3RhdF9GYWxsXzIwMTdfZGlyLCAib2JfcHJvYjEueGxzeCIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvcHJvYmxlbTIuc2FzIiwgZmlsZS5wYXRoKGJpb3N0YXRfRmFsbF8yMDE3X2RpciwgInByb2JsZW0yLnNhcyIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvaGVhcnQuY3N2IiwgZmlsZS5wYXRoKGJpb3N0YXRfRmFsbF8yMDE3X2RpciwgImhlYXJ0LmNzdiIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvc2FsZXMudHh0IiwgZmlsZS5wYXRoKGJpb3N0YXRfRmFsbF8yMDE3X2RpciwgInNhbGVzLnR4dCIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvYnJlYXN0LmNzdiIsIGZpbGUucGF0aChiaW9zdGF0X0ZhbGxfMjAxN19kaXIsICJicmVhc3QuY3N2IikpDQpgYGANCg0KDQo=</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIkZpbGUgRG93bmxvYWQgZm9yIHBhc3QgTVMgZXhhbXMiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQoNCllvdSBjYW4gcnVuIHRoaXMgUiBub3RlYm9vayB0byBkb3dubG9hZCBhbGwgb2YgdGhlIHBhc3QgTVMgZXhhbSBmaWxlcy4NCg0KRmlyc3Qgc2V0IHRoZSBkaXJlY3Rvcnkgd2hlcmUgeW91IHdvdWxkIGxpa2UgdG8gZG93bmxvYWQgYWxsIG9mIHRoZSBmaWxlcy4NCg0KDQpgYGB7cn0NCmRvd25sb2FkX2RpciA8LSAiQzovbXNleGFtLyINCmRpci5jcmVhdGUoZG93bmxvYWRfZGlyKQ0KDQpzdGF0X2RpciA8LSBmaWxlLnBhdGgoZG93bmxvYWRfZGlyLCAic3RhdCIpDQpkaXIuY3JlYXRlKHN0YXRfZGlyKQ0KDQpiaW9zdGF0X2RpciA8LSBmaWxlLnBhdGgoZG93bmxvYWRfZGlyLCAiYmlvc3RhdCIpDQpkaXIuY3JlYXRlKGJpb3N0YXRfZGlyKQ0KDQpgYGANCg0KDQpgYGB7cn0NCnN0YXRfU3ByaW5nXzIwMThfZGlyIDwtIGZpbGUucGF0aChzdGF0X2RpciwgIlNwcmluZ18yMDE4IikNCmRpci5jcmVhdGUoc3RhdF9TcHJpbmdfMjAxOF9kaXIpDQpiaW9zdGF0X1NwcmluZ18yMDE4X2RpciA8LSBmaWxlLnBhdGgoYmlvc3RhdF9kaXIsICJTcHJpbmdfMjAxOCIpDQpkaXIuY3JlYXRlKGJpb3N0YXRfU3ByaW5nXzIwMThfZGlyKQ0KDQpzdGF0X0ZhbGxfMjAxN19kaXIgPC0gZmlsZS5wYXRoKHN0YXRfZGlyLCAiRmFsbF8yMDE3IikNCmRpci5jcmVhdGUoc3RhdF9GYWxsXzIwMTdfZGlyKQ0KYmlvc3RhdF9GYWxsXzIwMTdfZGlyIDwtIGZpbGUucGF0aChiaW9zdGF0X2RpciwgIkZhbGxfMjAxNyIpDQpkaXIuY3JlYXRlKGJpb3N0YXRfRmFsbF8yMDE3X2RpcikNCg0Kc3RhdF9TcHJpbmdfMjAxN19kaXIgPC0gZmlsZS5wYXRoKHN0YXRfZGlyLCAiU3ByaW5nXzIwMTciKQ0KZGlyLmNyZWF0ZShzdGF0X1NwcmluZ18yMDE3X2RpcikNCmJpb3N0YXRfU3ByaW5nXzIwMTdfZGlyIDwtIGZpbGUucGF0aChiaW9zdGF0X2RpciwgIlNwcmluZ18yMDE3IikNCmRpci5jcmVhdGUoYmlvc3RhdF9TcHJpbmdfMjAxN19kaXIpDQoNCg0KYGBgDQoNCg0KDQojIyMgTVMgRXhhbSwgQmlvc3RhdGlzdGljcywgU3ByaW5nIDIwMTgNCg0KYGBge3J9DQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE4L1NwcmluZzIwMTgvb2JfcHJvYjEuY3N2IiwgZmlsZS5wYXRoKHN0YXRfU3ByaW5nXzIwMThfZGlyLCAib2JfcHJvYjEuY3N2IikpDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTgvU3ByaW5nMjAxOC9zYXRfZGF0YS50eHQiLCBmaWxlLnBhdGgoc3RhdF9TcHJpbmdfMjAxOF9kaXIsICJzYXRfZGF0YS50eHQiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxOC9TcHJpbmcyMDE4L2xlbW9uLmNzdiIsIGZpbGUucGF0aChzdGF0X1NwcmluZ18yMDE4X2RpciwgImxlbW9uLmNzdiIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE4L1NwcmluZzIwMTgvcHJvYjQuZGF0IiwgZmlsZS5wYXRoKHN0YXRfU3ByaW5nXzIwMThfZGlyLCAicHJvYjQuZGF0IikpDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTgvU3ByaW5nMjAxOC9CaWdNYWMuY3N2IiwgZmlsZS5wYXRoKHN0YXRfU3ByaW5nXzIwMThfZGlyLCAiQmlnTWFjLmNzdiIpKQ0KDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTgvU3ByaW5nMjAxOC9vYl9wcm9iMS5jc3YiLCBmaWxlLnBhdGgoYmlvc3RhdF9TcHJpbmdfMjAxOF9kaXIsICJvYl9wcm9iMS5jc3YiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxOC9TcHJpbmcyMDE4L3NhdF9kYXRhLnR4dCIsIGZpbGUucGF0aChiaW9zdGF0X1NwcmluZ18yMDE4X2RpciwgInNhdF9kYXRhLnR4dCIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE4L1NwcmluZzIwMTgvbGVtb24uY3N2IiwgZmlsZS5wYXRoKGJpb3N0YXRfU3ByaW5nXzIwMThfZGlyLCAibGVtb24uY3N2IikpDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTgvU3ByaW5nMjAxOC9wcm9iNC5kYXQiLCBmaWxlLnBhdGgoYmlvc3RhdF9TcHJpbmdfMjAxOF9kaXIsICJwcm9iNC5kYXQiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxOC9TcHJpbmcyMDE4L3Vpcy50eHQiLCBmaWxlLnBhdGgoYmlvc3RhdF9TcHJpbmdfMjAxOF9kaXIsICJ1aXMudHh0IikpDQpgYGANCg0KDQoNCg0KIyMjIE1TIEV4YW0sIFN0YXRpc3RpY3MsIEZhbGwgMjAxNw0KDQpgYGB7cn0NCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvSU5KVVJZOS5jc3YiLCBmaWxlLnBhdGgoc3RhdF9GYWxsXzIwMTdfZGlyLCAiSU5KVVJZOS5jc3YiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9GYWxsMjAxNy9yaXZlci5jc3YiLCBmaWxlLnBhdGgoc3RhdF9GYWxsXzIwMTdfZGlyLCAicml2ZXIuY3N2IikpDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvcHJvc3RhdGUuY3N2IiwgZmlsZS5wYXRoKHN0YXRfRmFsbF8yMDE3X2RpciwgInByb3N0YXRlLmNzdiIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L0ZhbGwyMDE3L3Byb2I0LnR4dCIsIGZpbGUucGF0aChzdGF0X0ZhbGxfMjAxN19kaXIsICJwcm9iNC50eHQiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9GYWxsMjAxNy9KZXRzLmNzdiIsIGZpbGUucGF0aChzdGF0X0ZhbGxfMjAxN19kaXIsICJKZXRzLmNzdiIpKQ0KDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvSU5KVVJZOS5jc3YiLCBmaWxlLnBhdGgoYmlvc3RhdF9GYWxsXzIwMTdfZGlyLCAiSU5KVVJZOS5jc3YiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9GYWxsMjAxNy9yaXZlci5jc3YiLCBmaWxlLnBhdGgoYmlvc3RhdF9GYWxsXzIwMTdfZGlyLCAicml2ZXIuY3N2IikpDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvRmFsbDIwMTcvcHJvc3RhdGUuY3N2IiwgZmlsZS5wYXRoKGJpb3N0YXRfRmFsbF8yMDE3X2RpciwgInByb3N0YXRlLmNzdiIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L0ZhbGwyMDE3L3Byb2I0LnR4dCIsIGZpbGUucGF0aChiaW9zdGF0X0ZhbGxfMjAxN19kaXIsICJwcm9iNC50eHQiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9GYWxsMjAxNy92YWx1bmcuY3N2IiwgZmlsZS5wYXRoKGJpb3N0YXRfRmFsbF8yMDE3X2RpciwgInZhbHVuZy5jc3YiKSkNCg0KYGBgDQoNCiMjIyBNUyBFeGFtLCBCaW9zdGF0aXN0aWNzLCBTcHJpbmcgMjAxNw0KDQpgYGB7cn0NCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9vYl9wcm9iMS5jc3YiLCBmaWxlLnBhdGgoc3RhdF9TcHJpbmdfMjAxN19kaXIsICJvYl9wcm9iMS5jc3YiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L3Byb2JsZW0yLnNhcyIsIGZpbGUucGF0aChzdGF0X1NwcmluZ18yMDE3X2RpciwgInByb2JsZW0yLnNhcyIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvaGVhcnQuY3N2IiwgZmlsZS5wYXRoKHN0YXRfU3ByaW5nXzIwMTdfZGlyLCAiaGVhcnQuY3N2IikpDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9zYWxlcy50eHQiLCBmaWxlLnBhdGgoc3RhdF9TcHJpbmdfMjAxN19kaXIsICJzYWxlcy50eHQiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L0JhcmxleS5jc3YiLCBmaWxlLnBhdGgoc3RhdF9TcHJpbmdfMjAxN19kaXIsICJCYXJsZXkuY3N2IikpDQoNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L29iX3Byb2IxLmNzdiIsIGZpbGUucGF0aChiaW9zdGF0X1NwcmluZ18yMDE3X2RpciwgIm9iX3Byb2IxLmNzdiIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvcHJvYmxlbTIuc2FzIiwgZmlsZS5wYXRoKGJpb3N0YXRfU3ByaW5nXzIwMTdfZGlyLCAicHJvYmxlbTIuc2FzIikpDQoNCmRvd25sb2FkLmZpbGUoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lc3Vlc3MvbXNleGFtL21hc3Rlci9wYXN0bXNleGFtLzIwMTcvU3ByaW5nMjAxNy9oZWFydC5jc3YiLCBmaWxlLnBhdGgoYmlvc3RhdF9TcHJpbmdfMjAxN19kaXIsICJoZWFydC5jc3YiKSkNCg0KZG93bmxvYWQuZmlsZSgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzdWVzcy9tc2V4YW0vbWFzdGVyL3Bhc3Rtc2V4YW0vMjAxNy9TcHJpbmcyMDE3L3NhbGVzLnR4dCIsIGZpbGUucGF0aChiaW9zdGF0X1NwcmluZ18yMDE3X2RpciwgInNhbGVzLnR4dCIpKQ0KDQpkb3dubG9hZC5maWxlKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZXN1ZXNzL21zZXhhbS9tYXN0ZXIvcGFzdG1zZXhhbS8yMDE3L1NwcmluZzIwMTcvYnJlYXN0LmNzdiIsIGZpbGUucGF0aChiaW9zdGF0X1NwcmluZ18yMDE3X2RpciwgImJyZWFzdC5jc3YiKSkNCmBgYA0KDQoNCg==</div>
 
 
 

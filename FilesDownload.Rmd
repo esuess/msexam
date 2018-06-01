@@ -23,6 +23,11 @@ dir.create(biostat_dir)
 
 
 ```{r}
+stat_Spring_2018_dir <- file.path(stat_dir, "Spring_2018")
+dir.create(stat_Spring_2018_dir)
+biostat_Spring_2018_dir <- file.path(biostat_dir, "Spring_2018")
+dir.create(biostat_Spring_2018_dir)
+
 stat_Fall_2017_dir <- file.path(stat_dir, "Fall_2017")
 dir.create(stat_Fall_2017_dir)
 biostat_Fall_2017_dir <- file.path(biostat_dir, "Fall_2017")
@@ -37,6 +42,31 @@ dir.create(biostat_Spring_2017_dir)
 ```
 
 
+
+### MS Exam, Biostatistics, Spring 2018
+
+```{r}
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/ob_prob1.csv", file.path(stat_Spring_2018_dir, "ob_prob1.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/sat_data.txt", file.path(stat_Spring_2018_dir, "sat_data.txt"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/lemon.csv", file.path(stat_Spring_2018_dir, "lemon.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/prob4.dat", file.path(stat_Spring_2018_dir, "prob4.dat"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/BigMac.csv", file.path(stat_Spring_2018_dir, "BigMac.csv"))
+
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/ob_prob1.csv", file.path(biostat_Spring_2018_dir, "ob_prob1.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/sat_data.txt", file.path(biostat_Spring_2018_dir, "sat_data.txt"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/lemon.csv", file.path(biostat_Spring_2018_dir, "lemon.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/prob4.dat", file.path(biostat_Spring_2018_dir, "prob4.dat"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/uis.txt", file.path(biostat_Spring_2018_dir, "uis.txt"))
+```
 
 
 
@@ -70,7 +100,7 @@ download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam
 ### MS Exam, Biostatistics, Spring 2017
 
 ```{r}
-download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/ob_prob1.xlsx", file.path(stat_Spring_2017_dir, "ob_prob1.xlsx"))
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/ob_prob1.csv", file.path(stat_Spring_2017_dir, "ob_prob1.csv"))
 
 download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/problem2.sas", file.path(stat_Spring_2017_dir, "problem2.sas"))
 
@@ -81,15 +111,15 @@ download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam
 download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/Barley.csv", file.path(stat_Spring_2017_dir, "Barley.csv"))
 
 
-download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/ob_prob1.xlsx", file.path(biostat_Fall_2017_dir, "ob_prob1.xlsx"))
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/ob_prob1.csv", file.path(biostat_Spring_2017_dir, "ob_prob1.csv"))
 
-download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/problem2.sas", file.path(biostat_Fall_2017_dir, "problem2.sas"))
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/problem2.sas", file.path(biostat_Spring_2017_dir, "problem2.sas"))
 
-download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/heart.csv", file.path(biostat_Fall_2017_dir, "heart.csv"))
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/heart.csv", file.path(biostat_Spring_2017_dir, "heart.csv"))
 
-download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/sales.txt", file.path(biostat_Fall_2017_dir, "sales.txt"))
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/sales.txt", file.path(biostat_Spring_2017_dir, "sales.txt"))
 
-download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/breast.csv", file.path(biostat_Fall_2017_dir, "breast.csv"))
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/breast.csv", file.path(biostat_Spring_2017_dir, "breast.csv"))
 ```
 
 
