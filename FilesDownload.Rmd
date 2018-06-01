@@ -38,7 +38,6 @@ dir.create(stat_Spring_2017_dir)
 biostat_Spring_2017_dir <- file.path(biostat_dir, "Spring_2017")
 dir.create(biostat_Spring_2017_dir)
 
-
 ```
 
 
@@ -67,7 +66,6 @@ download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam
 
 download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/uis.txt", file.path(biostat_Spring_2018_dir, "uis.txt"))
 ```
-
 
 
 
