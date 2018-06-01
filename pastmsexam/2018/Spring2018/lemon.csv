@@ -1,0 +1,9 @@
+loc,gender,lemon,count
+urban,female,1,55
+urban,female,0,225
+urban,male,1,22
+urban,male,0,97
+rural,female,1,10
+rural,female,0,128
+rural,male,1,17
+rural,male,0,250

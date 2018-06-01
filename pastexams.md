@@ -1,6 +1,21 @@
 ### Computer files from past MS exams
 
 -----
+MS Exam, Statistics, Spring 2018
+1. [ob_prob1.xlsx](pastmsexam/2018/Spring2018/ob_prob1.xlsx)
+2. [sat_data.txt](pastmsexam/2018/Spring2018/sat_data.txt)
+3. [lemon.csv](pastmsexam/2018/Spring2018/lemon.csv)
+4. [prob4.dat](pastmsexam/2018/Spring2018/prob4.dat)
+5. [BigMac.csv](pastmsexam/2018/Spring2018/BigMac.csv)
+
+MS Exam, Biostatistics, Spring 2018
+1. [ob_prob1.xlsx](pastmsexam/2018/Spring20187/ob_prob1.xlsx)
+2. [sat_data.txt](pastmsexam/2018/Spring2018/sat_data.txt)
+3. [lemon.csv](pastmsexam/2018/Spring2018/lemon.csv)
+4. [prob4.dat](pastmsexam/2018/Spring2018/prob4.dat)
+5. [uis.txt](pastmsexam/2018/Spring2018/uis.txt)
+
+-----
 MS Exam, Statistics, Fall 2017
 1. [INJURY9.csv](pastmsexam/2017/Fall2017/INJURY9.csv)
 2. [river.csv](pastmsexam/2017/Fall2017/river.csv)
@@ -13,7 +28,7 @@ MS Exam, Biostatistics, Fall 2017
 2. [river.csv](pastmsexam/2017/Fall2017/river.csv)
 3. [prostate.csv](pastmsexam/2017/Fall2017/prostate.csv)
 4. [prob4.txt](pastmsexam/2017/Fall2017/prob4.txt)
-5. [valung](pastmsexam/2017/Fall2017/valung.csv)
+5. [valung.csv](pastmsexam/2017/Fall2017/valung.csv)
 
 -----
 MS Exam, Statistics, Spring 2017

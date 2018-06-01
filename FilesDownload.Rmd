@@ -1,0 +1,95 @@
+---
+title: "File Download for past MS exams"
+output: html_notebook
+---
+
+
+You can run this R notebook to download all of the past MS exam files.
+
+First set the directory where you would like to download all of the files.
+
+
+```{r}
+download_dir <- "C:/msexam/"
+dir.create(download_dir)
+
+stat_dir <- file.path(download_dir, "stat")
+dir.create(stat_dir)
+
+biostat_dir <- file.path(download_dir, "biostat")
+dir.create(biostat_dir)
+
+```
+
+
+```{r}
+stat_Fall_2017_dir <- file.path(stat_dir, "Fall_2017")
+dir.create(stat_Fall_2017_dir)
+biostat_Fall_2017_dir <- file.path(biostat_dir, "Fall_2017")
+dir.create(biostat_Fall_2017_dir)
+
+stat_Spring_2017_dir <- file.path(stat_dir, "Spring_2017")
+dir.create(stat_Spring_2017_dir)
+biostat_Spring_2017_dir <- file.path(biostat_dir, "Spring_2017")
+dir.create(biostat_Spring_2017_dir)
+
+
+```
+
+
+
+
+
+
+### MS Exam, Statistics, Fall 2017
+
+```{r}
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/INJURY9.csv", file.path(stat_Fall_2017_dir, "INJURY9.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/river.csv", file.path(stat_Fall_2017_dir, "river.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/prostate.csv", file.path(stat_Fall_2017_dir, "prostate.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/prob4.txt", file.path(stat_Fall_2017_dir, "prob4.txt"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/Jets.csv", file.path(stat_Fall_2017_dir, "Jets.csv"))
+
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/INJURY9.csv", file.path(biostat_Fall_2017_dir, "INJURY9.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/river.csv", file.path(biostat_Fall_2017_dir, "river.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/prostate.csv", file.path(biostat_Fall_2017_dir, "prostate.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/prob4.txt", file.path(biostat_Fall_2017_dir, "prob4.txt"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/valung.csv", file.path(biostat_Fall_2017_dir, "valung.csv"))
+
+```
+
+### MS Exam, Biostatistics, Spring 2017
+
+```{r}
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/ob_prob1.xlsx", file.path(stat_Spring_2017_dir, "ob_prob1.xlsx"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/problem2.sas", file.path(stat_Spring_2017_dir, "problem2.sas"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/heart.csv", file.path(stat_Spring_2017_dir, "heart.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/sales.txt", file.path(stat_Spring_2017_dir, "sales.txt"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/Barley.csv", file.path(stat_Spring_2017_dir, "Barley.csv"))
+
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/ob_prob1.xlsx", file.path(biostat_Fall_2017_dir, "ob_prob1.xlsx"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/problem2.sas", file.path(biostat_Fall_2017_dir, "problem2.sas"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/heart.csv", file.path(biostat_Fall_2017_dir, "heart.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/sales.txt", file.path(biostat_Fall_2017_dir, "sales.txt"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/breast.csv", file.path(biostat_Fall_2017_dir, "breast.csv"))
+```
+
+
