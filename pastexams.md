@@ -189,7 +189,7 @@ MS Exam, Biostatistics, Spring 2012
 1. [batteries.txt](pastmsexam/2012/Spring2012/batteries.txt)
 2. [housing.txt](pastmsexam/2012/Spring2012/housing.txt)     [housing.csv](pastmsexam/2012/Spring2012/housing.csv)
 3. no data
-4. [problem4.R](pastmsexam/2012/Fall2012/problem4.R)
+4. [component.R](pastmsexam/2012/Spring2012/component.R)
 5. [BMTH.txt](pastmsexam/2012/Spring2012/BMTH.txt)
 
 -----
