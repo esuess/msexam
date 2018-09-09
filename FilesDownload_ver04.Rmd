@@ -189,7 +189,7 @@ dir.create(stat_Spring_2009_dir)
 
 
 
-### MS Exam, Biostatistics, 2009
+### MS Exam, Statistics, 2009
 
 ```{r}
 download.file("https://github.com/esuess/msexam/blob/master/pastmsexam/2009/Fall2009/CONTAM.TXT", file.path(stat_Fall_2009_dir, "CONTAM.TXT"))
