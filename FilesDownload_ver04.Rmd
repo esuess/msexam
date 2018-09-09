@@ -1,0 +1,225 @@
+---
+title: "File Download for past MS exams"
+author: "Prof. Eric A. Suess"
+output: html_notebook
+---
+
+
+You can run this R notebook to download all of the past Statistics and Biostatistics MS exam data files, 2013 - 2018.
+
+The data files are downloaded from the MS Exam github repository.  [msexam](https://github.com/esuess/msexam/tree/master/pastmsexam)
+
+```{r}
+files <- list(
+  
+# files [[year j]] [[fall or spring i]] [[url 1]] [[stat 2]] [[biostat 3]]  
+  
+    d2018 = list( 
+      df = list(url = "NA",
+        fs = list("NA"),
+        fb = list("NA") ),
+      ds = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2018/Spring2018/",
+        ss = list("ob_prob1.csv","sat_data.txt","lemon.csv","prob4.dat","BigMac.csv"),
+        sb = list("ob_prob1.csv","sat_data.txt","lemon.csv","prob4.dat","uis.txt") ) ),
+  
+    d2017 = list( 
+      df = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Fall2017/",
+        fs = list("INJURY9.csv","river.csv","prostate.csv","prob4.txt","Jets.csv"),
+        fb = list("INJURY9.csv","river.csv","prostate.csv","prob4.txt","valung.csv") ),
+      ds = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2017/Spring2017/",
+        ss = list("ob_prob1.xlsx","problem2.sas","heart.csv","sales.txt","Barley.csv"),
+        sb = list("ob_prob1.xlsx","problem2.sas","heart.csv","sales.txt","breast.csv") ) ),
+    
+    d2016 = list(
+      df = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2016/Fall2016/",
+        fs = list("hypnotic_induction.csv","problem2.sas","mammography.csv","cars.txt","forest.csv"),
+        fb = list("hypnotic_induction.csv","problem2.sas","mammography.csv","cars.txt","kidrecurr.txt") ),
+      ds = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2016/Spring2016/",
+      ss = list("cakemix.txt","problem2.csv","health.txt","DES_all.txt"),
+      sb = list("cakemix.txt","problem2.csv","health.txt","selenium.csv") ) ),
+    
+    d2015 = list(
+      df = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2015/Fall2015/",
+        fs = list("problem1.sas","Expenditure.csv","reading.txt","prob4.dat","iris.xlsx","iris.jpg"),
+        fb = list("problem1.sas","Expenditure.csv","reading.txt","prob4.dat","tongue_cancer.csv") ),
+      ds = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2015/Spring2015/",
+      ss = list("problem1.txt","problem1.MTW","salary.txt","ob_prob3.txt","prob4.dat","Survey_nonames_nocountry.xlsx","Survey_nonames_nocountry_corrected.xlsx"),
+      sb = list("problem1.txt","problem1.MTW","salary.txt","ob_prob3.txt","prob4.dat","valung_small.csv") ) ),  
+    
+    d2014 = list(
+      df = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2014/Fall2014/",
+        fs = list("music.txt","sales.txt","Scout.txt","problem5.txt"),
+        fb = list("music.txt","sales.txt","Scout.txt","SevAn.txt") ),
+      ds = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2014/Spring2014/",
+      ss = list("foodeffect.txt","reaction_time.txt","eld.txt","gamma.txt","mle2dgamma.R","problem5.txt"),
+      sb = list("foodeffect.txt","reaction_time.txt","eld.txt","gamma.txt","mle2dgamma.R","phd.txt") ) ),
+    
+    d2013 = list(
+      df = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2013/Fall2013/",
+        fs = list("counts.txt","Concrete.xls","CHD.txt","logodds.R","problem5.txt"),
+        fb = list("counts.txt","Concrete.xls","CHD.txt","logodds.R","valung.csv") ),
+      ds = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2013/Spring2013/",
+      ss = list("ob_prob1_bulbs.txt","ob_prob1_bulbs.xls","wealthy.csv","problem3.MTW","Weibull.R","ob_prob5_solid%20tumor.txt"),
+      sb = list("ob_prob1_bulbs.txt","ob_prob1_bulbs.xls","wealthy.csv","Weibull.R","ob_prob5_solid%20tumor.txt") ) ),
+    
+    d2012 = list(
+      df = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2012/Fall2012/",
+        fs = list("question1.csv","question1.mtw","question1.sas","sales.txt","problem4.R"),
+        fb = list("question1.csv","question1.mtw","question1.sas","sales.txt","problem4.R") ),
+      ds = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2012/Spring2012/",
+      ss = list("batteries.txt","housing.txt","housing.csv","component.R"),
+      sb = list("batteries.txt","housing.txt","housing.csv","component.R","BMTH.txt") ) ),
+  
+    d2011 = list(
+      df = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2011/Fall2011/",
+        fs = list("release.txt","health.txt","Hodgkin.txt","cans.R"),
+        fb = list("release.txt","health.txt","Hodgkin.txt","cans.R","breast.csv") ),
+      ds = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2011/Spring2011/",
+      ss = list("Compound.XLS","RealEstate.txt","achscor.XLS","rtestach.r","landings.R"),
+      sb = list("Compound.XLS","RealEstate.txt","achscor.XLS","rtestach.r","landings.R","b_cancer.txt") ) ),
+    
+    d2010 = list(
+      df = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2010/Fall2010/",
+        fs = list("DRUG.txt","problem2.csv","guns.txt","gamma-arrivals.txt","arrivals.R"),
+        fb = list("DRUG.txt","problem2.csv","guns.txt","gamma-arrivals.txt","arrivals.R","q5.txt") ),
+      ds = list(url = "https://github.com/esuess/msexam/blob/master/pastmsexam/2010/Spring2010/",
+      ss = list("TEMPBAT.TXT","shootout%20by%20team.xls","shootout%20by%20team.txt","weights.txt","umvue.R"),
+      sb = list("TEMPBAT.TXT","shootout%20by%20team.xls","shootout%20by%20team.txt","weights.txt","umvue.R","BMT.txt") ) )    
+  
+    
+)
+
+```
+
+First set up the directories where you will download all of the files.
+
+```{r}
+download_dir <- "C:/Past_MS_Exams-CSUEB_Statistics_and_Biostatistics"
+
+print(download_dir)
+ifelse(!dir.exists(file.path(download_dir)), dir.create(file.path(download_dir)), 
+       paste0("Directory already exists"))
+
+#setwd(file.path(download_dir))
+
+stat_dir <- file.path(download_dir, "Past_MS_Exams-Statistics")
+stat_dir
+biostat_dir <- file.path(download_dir, "Past_MS_Exams-Biostatistics")
+biostat_dir
+
+print(stat_dir)
+ifelse(!dir.exists(file.path(stat_dir)), dir.create(file.path(stat_dir)), 
+       paste0("Directory already exists"))
+
+print(biostat_dir)
+ifelse(!dir.exists(file.path(biostat_dir)), dir.create(file.path(biostat_dir)), 
+       paste0("Directory already exists"))
+```
+
+Second create the subdirectories to download the files to and download the files.
+
+```{r}
+start_year <- 2010
+
+end_year <- 2018
+
+
+years <- (end_year-start_year+1)
+
+test <- list("Fall", "Spring")
+
+for (i in 1: length(test)){        # spring or fall
+  for (j in end_year: start_year){ # year
+    DIR <- paste0(j,"_",test[[i]])
+    print(DIR)
+    
+    # Make Statistics subdirectories
+    stat_dir_new <- file.path(stat_dir, DIR)
+    print(stat_dir_new)
+    ifelse(!dir.exists(file.path(stat_dir, DIR)), dir.create(file.path(stat_dir, DIR)), 
+           print(paste0("Directory already exists")))
+    
+    for (k in 1: length(files[[(end_year-j+1)]][[i]][[(2)]])) {
+        if( files[[(end_year-j+1)]][[i]][[2]][[k]] == "NA"){ break }
+        download.file( paste0(   files[[(end_year-j+1)]][[i]][[1]], paste0( files[[(end_year-j+1)]][[i]][[2]][[k]] )  ),
+                          paste0(file.path(stat_dir, DIR ),"/",paste0(files[[(end_year-j+1)]][[i]][[2]][[k]]))   )
+    }
+  
+    # Make Biostat subdirectories
+    biostat_dir_new <- file.path(biostat_dir, DIR)
+    print(biostat_dir_new)
+    ifelse(!dir.exists(file.path(biostat_dir, DIR)), dir.create(file.path(biostat_dir, DIR)), 
+           print(paste0("Directory already exists")))
+    
+    for (k in 1: length(files[[(end_year-j+1)]][[i]][[3]])) {
+        if( files[[(end_year-j+1)]][[i]][[3]][[k]] == "NA"){ break }
+        download.file( paste0(   files[[(end_year-j+1)]][[i]][[1]], paste0( files[[(end_year-j+1)]][[i]][[3]][[k]] )  ),
+                          paste0(file.path(biostat_dir, DIR ),"/",paste0(files[[(end_year-j+1)]][[i]][[3]][[k]]))   )
+    }
+}
+}
+
+```
+
+
+The github files are structured differently before Spring 2010.
+
+Here is an example of how to download the older data files using a previous method for downloading the files.
+
+
+```{r}
+download_dir <- "C:/msexam/"
+dir.create(download_dir)
+
+stat_dir <- file.path(download_dir, "stat")
+dir.create(stat_dir)
+
+```
+
+
+```{r}
+stat_Fall_2009_dir <- file.path(stat_dir, "Fall_2009")
+dir.create(stat_Fall_2009_dir)
+
+stat_Spring_2009_dir <- file.path(stat_dir, "Spring_2009")
+dir.create(stat_Spring_2009_dir)
+
+```
+
+
+
+
+### MS Exam, Biostatistics, 2009
+
+```{r}
+download.file("https://github.com/esuess/msexam/blob/master/pastmsexam/2009/Fall2009/CONTAM.TXT", file.path(stat_Fall_2009_dir, "CONTAM.TXT"))
+
+download.file("https://github.com/esuess/msexam/blob/master/pastmsexam/2009/Fall2009/Reading%20Data.csv", file.path(stat_Fall_2009_dir, "Reading%20Data.csv"))
+
+download.file("https://github.com/esuess/msexam/blob/master/pastmsexam/2009/Fall2009/Reading%20Data.txt", file.path(stat_Fall_2009_dir, "Reading Data.txt"))
+
+download.file("https://github.com/esuess/msexam/blob/master/pastmsexam/2009/Fall2009/pollination.txt", file.path(stat_Fall_2009_dir, "pollination.txt"))
+
+download.file("https://github.com/esuess/msexam/blob/master/pastmsexam/2009/Fall2009/program4.R", file.path(stat_Fall_2009_dir, "program4.R"))
+
+download.file("https://github.com/esuess/msexam/blob/master/pastmsexam/2009/Fall2009/Health.txt", file.path(stat_Fall_2009_dir, "Health.txt"))
+
+
+download.file("https://github.com/esuess/msexam/blob/master/pastmsexam/2009/Spring2009/BATTERY.txt", file.path(stat_Spring_2009_dir, "BATTERY.txt"))
+
+download.file("https://github.com/esuess/msexam/blob/master/pastmsexam/2009/Spring2009/DataSet.csv", file.path(stat_Spring_2009_dir, "DataSet.csv"))
+
+download.file("https://github.com/esuess/msexam/blob/master/pastmsexam/2009/Spring2009/DataSet.txt", file.path(stat_Spring_2009_dir, "DataSet.txt"))
+
+download.file("https://github.com/esuess/msexam/blob/master/pastmsexam/2009/Spring2009/compareMSE.R", file.path(stat_Spring_2009_dir, "compareMSE.R"))
+
+download.file("https://github.com/esuess/msexam/blob/master/pastmsexam/2009/Spring2009/MMA.txt", file.path(stat_Spring_2009_dir, "MMA.txt"))
+
+
+```
+
+
+
+
+
+
