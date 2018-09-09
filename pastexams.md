@@ -219,7 +219,7 @@ MS Exam, Biostatistics, Spring 2011
 2. [RealEstate.txt](pastmsexam/2011/Spring2011/RealEstate.txt)
 3. [achscor.XLS](pastmsexam/2011/Spring2011/achscor.XLS)  [rtestach.r](pastmsexam/2011/Spring2011/rtestach.r)
 4. [landings.R](pastmsexam/2011/Spring2011/landings.R)
-5. [b_cancer.txt](pastmsexam/2011/Spring2011/landings.R)
+5. [b_cancer.txt](pastmsexam/2011/Spring2011/b_cancer.txt)
 
 -----
 MS Exam, Statistics, Fall 2010
