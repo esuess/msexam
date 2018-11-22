@@ -1,6 +1,21 @@
 ### Computer files from past MS exams
 
 -----
+MS Exam, Statistics, Fall 2018
+1. [SATIS9.csv](pastmsexam/2018/Fall2018/SATIS9.csv)
+2. [SexDisc.txt](pastmsexam/2018/Fall2018/SexDisc.txt)
+3. [heart.csv](pastmsexam/2018/Fall2018/heart.csv)
+4. no data
+5. [DES.txt](pastmsexam/2018/Fall2018/DES.txt)
+
+MS Exam, Biostatistics, Fall 2018
+1. [SATIS9.csv](pastmsexam/2018/Fall2018/SATIS9.csv)
+2. [SexDisc.txt](pastmsexam/2018/Fall2018/SexDisc.txt)
+3. [heart.csv](pastmsexam/2018/Fall2018/heart.csv)
+4. no data
+5. [myeloma.csv](pastmsexam/2018/Fall2018/myeloma.csv)
+
+-----
 MS Exam, Statistics, Spring 2018
 1. [ob_prob1.xlsx](pastmsexam/2018/Spring2018/ob_prob1.xlsx)
 2. [sat_data.txt](pastmsexam/2018/Spring2018/sat_data.txt)

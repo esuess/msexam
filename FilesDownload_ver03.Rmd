@@ -1,0 +1,249 @@
+---
+title: "File Download for past MS exams"
+output: html_notebook
+---
+
+# Past Statistics and Biostatistics MS exam data files
+
+You can run this R notebook to download all of the past Statistics and Biostatistics MS exam data files.
+
+The data files are downloaded from the MS Exam github repository.  [msexam](https://github.com/esuess/msexam/tree/master/pastmsexam)
+
+```{r}
+files <- list(
+    d2018 = list( 
+      ss = list("ob_prob1.csv","sat_data.txt","lemon.csv","prob4.dat","BigMac.csv"),
+      sb = list("ob_prob1.csv","sat_data.txt","lemon.csv","prob4.dat","uis.txt") ),
+  
+    d2017 = list( 
+      fs = list("INJURY9.csv","river.csv","prostate.csv","prob4.txt","Jets.csv"),
+      fb = list("INJURY9.csv","river.csv","prostate.csv","prob4.txt","valung.csv"),
+      ss = list("ob_prob1.xlsx","problem2.sas","heart.csv","sales.txt","Barley.csv"),
+      sb = list("ob_prob1.xlsx","problem2.sas","heart.csv","sales.txt","breast.csv") ),
+    
+    d2016 = list(
+      fs = list("hypnotic_induction.csv","problem2.sas","mammo.csv","cars.txt","forest.csv"),
+      fb = list("hypnotic_induction.csv","problem2.sas","mammo.csv","cars.txt","kidrecurr.txt"),
+      ss = list("cakemix.txt","problem2.csv","health.txt","DES_all.txt"),
+      sb = list("cakemix.txt","problem2.csv","health.txt","selenium.csv")
+    )
+)
+
+```
+
+
+
+
+
+Specify the years of exams data file you wish to download.
+
+
+
+
+First set the directory where you would like to download all of the files.
+
+```{r}
+download_dir <- "C:/Past_MS_Exams-CSUEB_Statistics_and_Biostatistics"
+
+print(download_dir)
+ifelse(!dir.exists(file.path(download_dir)), dir.create(file.path(download_dir)), 
+       paste0("Directory already exists"))
+
+#setwd(file.path(download_dir))
+
+stat_dir <- file.path(download_dir, "Past_MS_Exams-Statistics")
+biostat_dir <- file.path(download_dir, "Past_MS_Exams-Biostatistics")
+
+
+print(stat_dir)
+ifelse(!dir.exists(file.path(stat_dir)), dir.create(file.path(stat_dir)), 
+       paste0("Directory already exists"))
+
+print(biostat_dir)
+ifelse(!dir.exists(file.path(biostat_dir)), dir.create(file.path(biostat_dir)), 
+       paste0("Directory already exists"))
+```
+
+Second create the subdirectories to download the files to.
+
+```{r}
+#stat_dir
+#biostat_dir
+
+start_year <- 2017  #1998
+
+end_year <- 2018
+
+
+years <- (end_year-start_year+1)
+
+stat_dir_new_list <- replicate(years, list()) 
+biostat_dir_new_list <- replicate(years, list()) 
+
+test <- list("_Spring", "_Fall")
+
+
+for (i in 1: length(test)){
+  for (j in end_year: start_year){
+    DIR <- paste0(j,test[[i]])
+    print(DIR)
+    
+    # Make Statistics subdirectories
+    stat_dir_new <- file.path(stat_dir, DIR)
+    print(stat_dir_new)
+    ifelse(!dir.exists(file.path(stat_dir, DIR)), dir.create(file.path(stat_dir, DIR)), 
+           print(paste0("Directory already exists")))
+    
+    stat_dir_new_list[[(end_year-j)+1]] <- file.path(stat_dir, DIR)
+    
+    # Make Biostat subdirectories
+    biostat_dir_new <- file.path(biostat_dir, DIR)
+    print(biostat_dir_new)
+    ifelse(!dir.exists(file.path(biostat_dir, DIR)), dir.create(file.path(biostat_dir, DIR)), 
+           print(paste0("Directory already exists")))
+    
+    biostat_dir_new_list[[(end_year-j)+1]] <- file.path(biostat_dir, DIR)
+    
+  }
+}
+
+stat_dir_new_list
+biostat_dir_new_list
+
+
+```
+
+
+
+### MS Exam, Biostatistics, Spring 2018
+
+```{r}
+
+files <- list(
+    d2018 = list( 
+      ss = list("ob_prob1.csv", "sat_data.txt", "lemon.csv", "prob4.dat", "BigMac.csv"),
+      sb = list("ob_prob1.csv", "sat_data.txt", "lemon.csv", "prob4.dat", "uis.txt") ),
+  
+    d2017 = list( 
+      fs = list("INJURY9.csv", "river.csv", "prostate.csv", "prob4.txt", "Jets.csv"),
+      fb = list("INJURY9.csv", "river.csv", "prostate.csv", "prob4.txt", "valung.csv"),
+      ss = list("ob_prob1.xlsx", "problem2.sas", "heart.csv", "sales.txt", "Barley.csv"),
+      sb = list("ob_prob1.xlsx", "problem2.sas", "heart.csv", "sales.txt", "breast.csv") )
+)
+  
+files
+files$d2018$ss[[1]]
+
+
+"C:/Past_MS_Exams-CSUEB_Statistics_and_Biostatistics/Past_MS_Exams-Statistics/2018_Spring"
+
+"C:/Past_MS_Exams-CSUEB_Statistics_and_Biostatistics/Past_MS_Exams-Biostatistics/2018_Spring"
+
+stat_Spring_2018_dir <-"C:/Past_MS_Exams-CSUEB_Statistics_and_Biostatistics/Past_MS_Exams-Statistics/2018_Spring"
+
+biostat_Spring_2018_dir <- "C:/Past_MS_Exams-CSUEB_Statistics_and_Biostatistics/Past_MS_Exams-Biostatistics/2018_Spring"
+
+
+for ( i in 1: length(files$d2018$ss)){ 
+  download.file(paste0("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/", paste0(files$d2018$ss[[i]]) ),
+                file.path(stat_Spring_2018_dir, paste0(files$d2018$ss[[i]]) ) )
+}
+
+for ( i in 1: length(files$d2018$sb)){ 
+  download.file(paste0("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/", paste0(files$d2018$sb[[i]]) ),
+                file.path(biostat_Spring_2018_dir, paste0(files$d2018$sb[[i]]) ) )
+}
+
+
+Spring_2018_dir <- list(stat_Spring_2018_dir, biostat_Spring_2018_dir)
+
+for (year in 2017:2018) {
+
+for (i in 1:length(files[[1]]) ) {            # stat or biostat
+  length(files[[1]])
+  for (j in 1:length(files[[1]][[i]]) ) {     # spring or fall
+  download.file(paste0("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/",year,"/Spring",year,"/", paste0(files[[1]][[i]][j]) ),
+                file.path(Spring_2018_dir[i], paste0(files[[1]][[i]][j])) ) 
+  }
+}
+}
+  
+
+for ( i in 1: length(files$d2018$ss)){ 
+  download.file(paste0("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/", paste0(files$d2018$ss[[i]]) ),
+                file.path(stat_Spring_2018_dir, paste0(files$d2018$ss[[i]]) ) )
+}
+
+for ( i in 1: length(files$d2018$sb)){ 
+  download.file(paste0("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/", paste0(files$d2018$sb[[i]]) ),
+                file.path(biostat_Spring_2018_dir, paste0(files$d2018$sb[[i]]) ) )
+ }
+
+
+
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/ob_prob1.csv", file.path(biostat_Spring_2018_dir, "ob_prob1.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/sat_data.txt", file.path(biostat_Spring_2018_dir, "sat_data.txt"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/lemon.csv", file.path(biostat_Spring_2018_dir, "lemon.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/prob4.dat", file.path(biostat_Spring_2018_dir, "prob4.dat"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/uis.txt", file.path(biostat_Spring_2018_dir, "uis.txt"))
+```
+
+
+
+### MS Exam, Statistics, Fall 2017
+
+```{r}
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/INJURY9.csv", file.path(stat_Fall_2017_dir, "INJURY9.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/river.csv", file.path(stat_Fall_2017_dir, "river.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/prostate.csv", file.path(stat_Fall_2017_dir, "prostate.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/prob4.txt", file.path(stat_Fall_2017_dir, "prob4.txt"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/Jets.csv", file.path(stat_Fall_2017_dir, "Jets.csv"))
+
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/INJURY9.csv", file.path(biostat_Fall_2017_dir, "INJURY9.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/river.csv", file.path(biostat_Fall_2017_dir, "river.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/prostate.csv", file.path(biostat_Fall_2017_dir, "prostate.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/prob4.txt", file.path(biostat_Fall_2017_dir, "prob4.txt"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Fall2017/valung.csv", file.path(biostat_Fall_2017_dir, "valung.csv"))
+
+```
+
+### MS Exam, Biostatistics, Spring 2017
+
+```{r}
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/ob_prob1.csv", file.path(stat_Spring_2017_dir, "ob_prob1.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/problem2.sas", file.path(stat_Spring_2017_dir, "problem2.sas"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/heart.csv", file.path(stat_Spring_2017_dir, "heart.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/sales.txt", file.path(stat_Spring_2017_dir, "sales.txt"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/Barley.csv", file.path(stat_Spring_2017_dir, "Barley.csv"))
+
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/ob_prob1.csv", file.path(biostat_Spring_2017_dir, "ob_prob1.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/problem2.sas", file.path(biostat_Spring_2017_dir, "problem2.sas"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/heart.csv", file.path(biostat_Spring_2017_dir, "heart.csv"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/sales.txt", file.path(biostat_Spring_2017_dir, "sales.txt"))
+
+download.file("https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2017/Spring2017/breast.csv", file.path(biostat_Spring_2017_dir, "breast.csv"))
+```
+
+
