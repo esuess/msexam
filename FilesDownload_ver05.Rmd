@@ -17,9 +17,9 @@ files <- list(
 # files [[year j]] [[fall or spring i]] [[url 1]] [[stat 2]] [[biostat 3]]  
   
     d2018 = list( 
-      df = list(url = "NA",
-        fs = list("NA"),
-        fb = list("NA") ),
+      df = list(url = "https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Fall2018/",
+        fs = list("SATIS9.csv","SexDisc.txt","heart.csv","DES.txt"),
+        fb = list("SATIS9.csv","SexDisc.txt","heart.csv","myeloma.csv") ),
       ds = list(url = "https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/",
         ss = list("ob_prob1.csv","sat_data.txt","lemon.csv","prob4.dat","BigMac.csv"),
         sb = list("ob_prob1.csv","sat_data.txt","lemon.csv","prob4.dat","uis.txt") ) ),
