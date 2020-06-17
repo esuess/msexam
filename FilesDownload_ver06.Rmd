@@ -15,7 +15,23 @@ Using a list of
 files <- list(
   
 # files [[year j]] [[fall or spring i]] [[url 1]] [[stat 2]] [[biostat 3]] 
-
+  
+    d2020 = list( 
+      df = list(url = "https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Fall2018/",
+        fs = list(""),
+        fb = list("") ),
+      ds = list(url = "https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Spring2018/",
+        ss = list("battery.csv","homes.csv","covid19.csv"),
+        sb = list("battery.csv","homes.csv","burn.csv") ) ),
+  
+    d2019 = list( 
+      df = list(url = "https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2019/Fall2019/",
+        fs = list("flightdata.csv","gssdata","quakes.csv","loan.txt"),
+        fb = list("flightdata.csv","loan.txt","kidrecurr.xlsx") ),
+      ds = list(url = "https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2019/Spring2019/",
+        ss = list("gasoline_addatives.csv","mort.txt","resist.csv","NHANES.txt"),
+        sb = list("gasoline_addatives.csv","mort.txt","resist.csv","brain.txt") ) ),
+  
     d2018 = list( 
       df = list(url = "https://raw.githubusercontent.com/esuess/msexam/master/pastmsexam/2018/Fall2018/",
         fs = list("SATIS9.csv","SexDisc.txt","heart.csv","DES.txt"),
@@ -96,7 +112,7 @@ files <- list(
 First set up the directories where you will download all of the files.
 
 ```{r}
-download_dir <- "C:/Past_MS_Exams-CSUEB_Statistics_and_Biostatistics"
+download_dir <- "E:/Past_MS_Exams-CSUEB_Statistics_and_Biostatistics"
 
 print(download_dir)
 ifelse(!dir.exists(file.path(download_dir)), dir.create(file.path(download_dir)), 

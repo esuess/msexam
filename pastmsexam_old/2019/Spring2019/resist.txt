@@ -1,0 +1,45 @@
+ID Treatment Gender Age Improved
+
+57 Treated Male   27 0   9 Placebo Male   37 0
+46 Treated Male   29 -1  14 Placebo Male   44 0
+77 Treated Male   30 -1  73 Placebo Male   50 0
+17 Treated Male   32 1  74 Placebo Male   51 0
+36 Treated Male   46 1  25 Placebo Male   52 0
+23 Treated Male   58 1  18 Placebo Male   53 0
+75 Treated Male   59 -1  21 Placebo Male   59 0
+39 Treated Male   59 1  52 Placebo Male   59 0
+33 Treated Male   63 -1  45 Placebo Male   62 0
+55 Treated Male   63 -1  41 Placebo Male   62 0
+30 Treated Male   64 -1   8 Placebo Male   63 1
+ 5 Treated Male   64 0  80 Placebo Female 23 0
+63 Treated Male   69 -1  12 Placebo Female 30 0
+83 Treated Male   70 1  29 Placebo Female 30 0
+66 Treated Female 23 -1  50 Placebo Female 31 1
+40 Treated Female 32 -1  38 Placebo Female 32 0
+ 6 Treated Female 37 0  35 Placebo Female 33 1
+ 7 Treated Female 41 -1  51 Placebo Female 37 0
+72 Treated Female 41 1  54 Placebo Female 44 0
+37 Treated Female 48 -1  76 Placebo Female 45 0
+82 Treated Female 48 1  16 Placebo Female 46 0
+53 Treated Female 55 1  69 Placebo Female 48 0
+79 Treated Female 55 1  31 Placebo Female 49 0
+26 Treated Female 56 1  20 Placebo Female 51 0
+28 Treated Female 57 1  68 Placebo Female 53 0
+60 Treated Female 57 1  81 Placebo Female 54 0
+22 Treated Female 57 1   4 Placebo Female 54 0
+27 Treated Female 58 -1  78 Placebo Female 54 1
+ 1 Treated Female 59 1  70 Placebo Female 55 1
+59 Treated Female 59 1  49 Placebo Female 57 0
+62 Treated Female 60 1  10 Placebo Female 57 1
+84 Treated Female 61 1  47 Placebo Female 58 1
+64 Treated Female 62 0  44 Placebo Female 59 1
+34 Treated Female 62 1  24 Placebo Female 59 1
+58 Treated Female 66 1  48 Placebo Female 61 0
+13 Treated Female 67 1  19 Placebo Female 63 1
+61 Treated Female 68 0   3 Placebo Female 64 0
+65 Treated Female 68 1  67 Placebo Female 65 1
+11 Treated Female 69 -1  32 Placebo Female 66 0
+56 Treated Female 69 0  42 Placebo Female 66 0
+43 Treated Female 70 0  15 Placebo Female 66 1
+                        71 Placebo Female 68 1
+                         0 Placebo Female 74 1
